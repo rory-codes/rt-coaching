@@ -28,6 +28,24 @@ h3 {
     color: var(--highlight-color-light);
 }
 
+/*Navigation*/
+#navigation {
+    background-color: var(--highlight-color-light);
+    color: var(--lowlight-color);
+    max-height: 50px;
+    font-family: var(--primary-font);
+}
+
+.booking-button {
+    background-color: var(--lowlight-color);
+    border-radius: 4rem ;
+    color: var(--secondary-color);
+}
+
+nav:hover {
+    color: var(--primary-color);
+    background-color: var(--highlight-color);
+}
 /*Grid visualisation CSS for testing
 .container,
 .row {
