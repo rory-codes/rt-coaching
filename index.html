@@ -54,7 +54,7 @@ integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEw
                 <a class="nav-link" href="gallery.html">Gallery</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link booking-button" href="booking.html">Book your childs place now</a>
+                <a class="nav-link booking-button" href="booking.html">Book now</a><!--Added custom class to change appearance of booking button-->
               </li>
             </ul>
           </div>
@@ -63,11 +63,24 @@ integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEw
 </div> 
 
 <!--Header with hero image-->  
-  <header class="container">
-    <div class="row">
-        <div class="col-12 col-xl-6">RT Coaching intro text</div>
-        <div class="col-12 col-xl-6">Hero</div>
-    </div>
+  <header class="container"> <!--Created header ID-->
+        <section id="header" class="row">
+        <div class="col-6 col-xl-6">
+            <img src="assets/images/rt.png" alt="RT coaching logo (Takes user to home page when clicked)" class="logo ms-5 ps-5"> <!--logo crass created in CSS to target height and width of logo-->
+            <h1><strong>RT Coaching </strong>| Pedagogy informed coaching</h1> <!--Strong element added to give company name emphasis-->
+            <h4>Helping children, students and teens learn to play sport. We work with schools and sports organisations focusing on various sports including football, tag rugby and multi sports.</h4>
+
+<p>Using pedagogy informed coaching to provide a fully holistic experience for everyone involved.<br>
+
+Whether it is holistic coaching or technical improvement required, we have the approach to fit the scenario.<br>
+
+Fully inclusive, everyone is welcome.<br>
+
+What are you waiting for.......   <a class="nav-link booking-button-large ms-auto" href="booking.html">Book a session now</a> <!--ms-auto added to move book now to the right of the collumn-->
+            </p>
+        </div>
+        <div id="hero" class="col-6 col-xl-6"></div>
+    </section>
   </header>
 
   <!--Main element to hold all key sections of the home page. It is not part of the grid-->
