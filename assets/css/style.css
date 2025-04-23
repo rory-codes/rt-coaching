@@ -16,6 +16,7 @@
 /*Global styles*/
 body {
     font-family: var(--primary-font);
+    background-color: var(--primary-color);
 }
 
 h1,
@@ -85,16 +86,10 @@ header {
     color: var(--highlight-color);
 }
 
-/*Hero image*/
-#hero {
-    background-color: var(--secondary-color);
-    background-size: cover;
-    background-position: 50% 70%;
-    min-height: 500px;
-    padding: 5% 7%;
-}
-#header>.h1 {
-    col
+
+#header h1 {
+    color: var(--primary-color);
+    background-color: #9EBFD1;
 }
 
 /*Grid visualisation CSS for testing
