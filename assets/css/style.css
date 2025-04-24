@@ -96,18 +96,34 @@ header {
     background-color: rgba(158, 191, 209, 0.74); /*Change to rgba to target opacity of background color*/
 }
 
-/*Services section*/
-#services {
+/*Sports section*/
+#sports {
     color: var(--secondary-color);
-    margin-top: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
 }
 
-#services .card {
+#sports .card {
     background-color: var(--highlight-color-light);
 }
 
-#services .card li {
+#sports .card li {
     background-color: var(--highlight-color);
+}
+
+.card  {
+    min-height: 72vh;
+    max-height: 72vh;
+}
+
+#sports .card img {
+    min-height: 254.73px;
+    max-height: 254.73px;
+}
+
+.card-body {
+    min-height: 154.73px;
+    max-height: 154.73px;
 }
 /*Grid visualisation CSS for testing
 .container,

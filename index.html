@@ -42,13 +42,10 @@ integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEw
                 <a class="nav-link active" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#services">What we do</a>
+                <a class="nav-link" href="#sports">Sports</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#pricing">Pricing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#timetable">Timetable</a>
+                <a class="nav-link" href="#services">Services</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="gallery.html">Gallery</a>
@@ -67,7 +64,7 @@ integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEw
         <section id="header" class="row">
         <div class="col-12 col-xl-12">
             <img src="assets/images/rt-2.png" alt="RT coaching logo" class="logo-header ms-5 ps-5 text-center"> <!--ms-5 added to push logo away from left corner-->
-            <h1><strong>RT Coaching | Pedagogy informed coaching</strong>|</h1> <!--Strong element added to give company name emphasis--> 
+            <h1><strong>RT Coaching | Pedagogy informed coaching</strong></h1> <!--Strong element added to give company name emphasis--> 
             <h4>Helping children, students and teens learn to play sport. We work with schools and sports organisations focusing on various sports including football, tag rugby and multi sports.</h4>
 
 <p>Using pedagogy informed coaching to provide a fully holistic experience for everyone involved.<br>
@@ -83,21 +80,22 @@ What are you waiting for.......   <a class="nav-link booking-button-large ms-aut
 
   <!--Main element to hold all key sections of the home page. It is not part of the grid-->
   <main>
-<!--Services section-->
-    <section id="services" class="container-fluid">
+<!--Sports section-->
+<!--Cards added from bootstrap. Card type: "Kitchen sink"-->
+    <section id="sports" class="container-fluid">
         <div class="row">
           <div class="col-12">
             <h2>Sports</h2>
-            <p>We cover a variety of sports which change termly. We currently are running the following programs:</p>
+            <p class="mt-4 mb-4">We cover a variety of sports which change termly. We currently are running the following programs:</p>
           </div>  
           <div class="col-12 col-md-4 col-xl-4">
-            <div class="card me-auto" style="width: 18rem;">
+            <div class="card"> <!--Removed style element. All styling linked through style.css-->
                 <img src="assets/images/football.png" class="card-img-top" alt="Children playing football on a grass pitch.">
                 <div class="card-body">
                   <h5 class="card-title">Football</h5>
                   <p class="card-text">We offer football coaching at afterschool clubs in and around Surrey.                                          </p>
                 </div>
-                <ul class="list-group list-group-flush">
+                <ul class="list-group list-group-flush ">
                   <li class="list-group-item">Year 3/4: Monday 15.15-16.15pm</li>
                   <li class="list-group-item">Year 5/6: Tuesday 15.15-16.15pm</li>
                   <li class="list-group-item">£9 per session *Book 10 sessions for £80</li>
@@ -108,7 +106,7 @@ What are you waiting for.......   <a class="nav-link booking-button-large ms-aut
               </div>
           </div>
           <div class="col-12 col-md-4 col-xl-4">
-            <div class="card" style="width: 18rem;">
+            <div class="card">
                 <img src="assets/images/rugby-ball-2.png" class="card-img-top" alt="A rugby ball">
                 <div class="card-body">
                   <h5 class="card-title">Tag rugby</h5>
@@ -125,8 +123,8 @@ What are you waiting for.......   <a class="nav-link booking-button-large ms-aut
               </div>
           </div>
           <div class="col-12 col-md-4 col-xl-4">
-            <div class="card" style="width: 18rem;">
-                <img src="assets/images/rugby-ball-2.png" class="card-img-top" alt="A rugby ball">
+            <div class="card">
+                <img src="assets/images/tennis-high-five.png" class="card-img-top" alt="A rugby ball">
                 <div class="card-body">
                   <h5 class="card-title">Multi sports</h5>
                   <p class="card-text">We offer multi sports coaching at afterschool clubs in and around Surrey. This focuses on various themes: Invasion, wall & net, striking/fielding, target and alternative activities.</p>
