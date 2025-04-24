@@ -29,7 +29,6 @@ h3 {
     color: var(--highlight-color-light);
 }
 
-
 /*Navigation*/
 #navigation {
     background-color: var(--highlight-color-light);
@@ -95,9 +94,21 @@ header {
 #header h1 {
     color: var(--primary-color);
     background-color: rgba(158, 191, 209, 0.74); /*Change to rgba to target opacity of background color*/
-    back
 }
 
+/*Services section*/
+#services {
+    color: var(--secondary-color);
+    margin-top: 2rem;
+}
+
+#services .card {
+    background-color: var(--highlight-color-light);
+}
+
+#services .card li {
+    background-color: var(--highlight-color);
+}
 /*Grid visualisation CSS for testing
 .container,
 .row {
