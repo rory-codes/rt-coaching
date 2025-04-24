@@ -16,7 +16,7 @@
 /*Global styles*/
 body {
     font-family: var(--primary-font);
-    background-color: var(--primary-color); /*Changed background color*/
+    background-color: var(--lowlight-color); /*Changed background color*/
 }
 
 h1,
@@ -71,12 +71,12 @@ h3 {
 
 .logo {
     max-height: 8%;
-        /*Class added to target the size of the logo for the header*/
+        /*Class added to target the size of the logo for the navbar*/
       
 }
 
 .logo-header {
-    max-height: 40vh;
+    max-height: 20vh;
     opacity: 70%;     /*Class added to target the size, width and opacity of the logo for the header*/
     padding: 1rem;   
     margin-top: 2rem; 
@@ -111,7 +111,11 @@ header {
 
 
 /*Media queries*/
-
+/*Small devices (laptops, 576px and up) */
+@media screen and (min-width: 576px)  {
+    body { margin: 0;
+    }
+}
 /*Large devices (laptops, 992px and up) */
 /*Media query to address the positioning of the booking button across different screen sizes (mobile first approach)*/
 @media screen and (min-width: 992px)  {
