@@ -16,7 +16,7 @@
 /*Global styles*/
 body {
     font-family: var(--primary-font);
-    background-color: var(--primary-color);
+    background-color: var(--primary-color); /*Changed background color*/
 }
 
 h1,
@@ -69,7 +69,7 @@ h3 {
 }
 
 .logo {
-    max-height: 180px;
+    max-height: 250px;
     max-width: auto;
     opacity: 60%;     /*Class added to target the size, width and opacity of the logo for the header*/
     padding: 1rem;     
@@ -78,7 +78,7 @@ h3 {
 
 /*Header section*/
 header {
-    background: url(../images/pexels-amorie-sam-468180864-28448692.jpg);
+    background: url(../images/hero-image.png); /*Background image added to create hero image*/
     width: 100vw;
     background-size: cover;
     background-position: center;
@@ -86,7 +86,7 @@ header {
     color: var(--highlight-color);
 }
 
-
+/*Change text color and background color to help heading standout*/
 #header h1 {
     color: var(--primary-color);
     background-color: #9EBFD1;
