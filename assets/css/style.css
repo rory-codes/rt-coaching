@@ -167,7 +167,7 @@ h5 {
 }
 /*Change paragraph colour within accordion section of services using custom ID*/
 #services-accordion p {
-    margin-bottom: 36px;
+    margin-bottom: 22px;
     color: var(--highlight-color);
 }
 
