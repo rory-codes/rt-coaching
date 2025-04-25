@@ -146,13 +146,27 @@ h5 {
 
 /*Accordion*/
 #services-accordion {
-    color: var(--highlight-color);
+    color: var(--highlight-color-light);
 }
 
 #services-accordion p {
-    margin-bottom: 56px;
+    margin-bottom: 46px;
+    color: var(--highlight-color);
 }
 
+.accordion-button {
+    background-color: var(--highlight-color);
+    color: var(--lowlight-color);
+}
+
+.accordion-body {
+    background-color: var(--lowlight-color);
+    color: var(--secondary-color);
+}
+
+.accordion-button .collapsed {
+    background-color: var(--highlight-color-light);
+}
 /*
 .card  {
     min-height: 72vh;
