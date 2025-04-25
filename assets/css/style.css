@@ -188,7 +188,7 @@ h5 {
     padding-top: 2rem;
 }
 
-#footer h3, h5 {
+#footer h3 {
     background-color: rgba(150, 176, 201, 0.32); /*Added to give background colour to title of cards to seperate text, colour from the colour scheme used but rgba selected to change opacity*/
     border-radius: 4px;
     border: 2px solid var(--secondary-color);
@@ -198,6 +198,7 @@ h5 {
 .socials {
     background-color: var(--highlight-color-light);
     color: var(--primary-color);   
+    margin-left: 1rem;
 }
 /*
 .card  {
