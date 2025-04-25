@@ -90,10 +90,10 @@ What are you waiting for.......   <a class="nav-link booking-button-large ms-aut
           </div>  
           <div class="col-12 col-md-4 col-xl-4">
             <div class="card"> <!--Removed style element. All styling linked through style.css-->
-                <img src="assets/images/football.png" class="card-img-top" alt="Children playing football on a grass pitch.">
+                <img src="assets/images/football.png" class="card-img-top" alt="Children playing football on a grass football pitch.">
                 <div class="card-body">
                   <h3 class="card-title">Football</h3> <!--Changed from h5 to make text larger-->
-                  <p class="card-text">We offer football coaching at afterschool clubs in and around Surrey.                                         </p>
+                  <p class="card-text">We offer football coaching at afterschool clubs in and around Surrey.  Allow our FA qualified coaches to do what they do best!                                       </p>
                 </div>
                 <ul class="list-group list-group-flush ">
                   <li class="list-group-item">Year 3/4: Monday 15.15-16.15pm</li>
@@ -124,7 +124,7 @@ What are you waiting for.......   <a class="nav-link booking-button-large ms-aut
           </div>
           <div class="col-12 col-md-4 col-xl-4">
             <div class="card">
-                <img src="assets/images/tennis-high-five.png" class="card-img-top" alt="A rugby ball">
+                <img src="assets/images/tennis-high-five.png" class="card-img-top" alt="Children high fiving across a tennis court net.">
                 <div class="card-body">
                   <h3 class="card-title">Multi sports</h3><!--Changed from h5 to make text larger-->
                   <p class="card-text">We offer multi sports coaching at afterschool clubs in and around Surrey. This focuses on various themes: Invasion, wall & net, striking/fielding, target and alternative activities.</p>
@@ -142,15 +142,18 @@ What are you waiting for.......   <a class="nav-link booking-button-large ms-aut
           </div>
         </div>
     </section>
+    <!--Services section using bootstrap grid system-->
     <section>
-    <div id="services" class="container padding-3">
+    <div id="services" class="container padding-3"><!--Added to give services section space away from sports section-->
         <div class="row">
             <div class="col-12">
               <h1>Services</h1>
               <h3>Whether you are a an individual, a parent/carer of an individual or an organisation (E.G: such as a school or sports team) we have something to offer..</h3>
               <h5>If content is king, then context is everything (Wosniaki, 1996) </h5>
-                <br>
-                At Rt Coaching we promote a pedagogy first approach. This means that we tailor content as much as possible to the situation.<br>
+            </div>
+           
+            <div class="col-12 col-md-6">
+              <p>At <strong> Rt Coaching </strong>we promote a pedagogy first approach. This means that we tailor content as much as possible to the situation.<br>
                 We combine planning and reflection after each session to assess the best course of action for future episodes.<br><br>
                 Using detailed knowledge of coaching and teaching padagogy. We base planning around Mosston (1966) spectrum of teaching styles/Pill., et al (2020 adaptation for sports coaching).<br>
                 The same way a builder would use different tools for different jobs. Our pedagogy first approach allows us to offer our students more than just your every day after-school club.<br>
@@ -158,9 +161,45 @@ What are you waiting for.......   <a class="nav-link booking-button-large ms-aut
                 Please have a look of yourself and let us know if you have any questions!
               </p>
             </div>
-            <div class="col-12 col-md-4 col-xl-4">Afterschool clubs</div>
-            <div class="col-12 col-md-4 col-xl-4">PPA</div>
-            <div class="col-12 col-md-4 col-xl-4">1-1's</div>
+            <!--Accordion added to allow customers to access information without the page looking cluttered-->
+            <div id="services-accordion" class="col-12 col-md-6">
+              <div>
+                <h3>How can we benefit you or your business</h3>
+                <p> Please see below for details on our services. We have a range of serices available to meet your needs.</p>
+              </div>
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      Coaching sessions
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      PPA
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      1-1's
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
         </div>
     </div>
   </section>

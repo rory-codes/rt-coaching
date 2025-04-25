@@ -22,7 +22,7 @@ body {
 h1,
 h2,
 h3,
-h4 {
+h5 {
     font-family: var(--secondary-color);
     margin-bottom: 2rem;
 }
@@ -108,6 +108,10 @@ header {
     margin-bottom: 2rem;
 }
 
+#sports h1 {
+    color: var(--highlight-color-light);
+}
+
 #sports .card {
     background-color: var(--highlight-color-light);
     margin-bottom: 1rem; /*Added to provide spacing between cards on when stacked on mobile devices*/
@@ -128,6 +132,27 @@ header {
     color: var(--secondary-color);
     
 }
+
+#services
+h1 {
+    color: var(--highlight-color-light)
+}
+
+#services 
+h3,
+h5 { 
+  color: var(--highlight-color);
+}
+
+/*Accordion*/
+#services-accordion {
+    color: var(--highlight-color);
+}
+
+#services-accordion p {
+    margin-bottom: 56px;
+}
+
 /*
 .card  {
     min-height: 72vh;
