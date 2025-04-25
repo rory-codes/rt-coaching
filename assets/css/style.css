@@ -181,7 +181,24 @@ h5 {
     color: var(--secondary-color);
 }
 
+/*Footer*/
+#footer {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding-top: 2rem;
+}
 
+#footer h3, h5 {
+    background-color: rgba(150, 176, 201, 0.32); /*Added to give background colour to title of cards to seperate text, colour from the colour scheme used but rgba selected to change opacity*/
+    border-radius: 4px;
+    border: 2px solid var(--secondary-color);
+}
+
+/*Change the colour of social links to match colour scheme*/
+.socials {
+    background-color: var(--highlight-color-light);
+    color: var(--primary-color);   
+}
 /*
 .card  {
     min-height: 72vh;
