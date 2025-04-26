@@ -200,6 +200,13 @@ h5 {
     color: var(--primary-color);   
     margin-left: 1rem;
 }
+
+/*Map on footer*/
+#map                {
+    border-radius: 1rem;
+    border:  2px solid var(--secondary-color);
+    box-shadow: var(--primary-color); /*Box shadow added, not consistent with other shadows from bootstrap*/
+}
 /*
 .card  {
     min-height: 72vh;
