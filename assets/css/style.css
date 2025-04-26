@@ -216,6 +216,8 @@ h5 {
 }
 /*Gallery */
 #gallery {
+    margin: 0;
+    padding: 0;
     
 }
 .gallery-image {
@@ -276,8 +278,8 @@ h5 {
          min-width: 4rem;
     }
     .gallery-image {
-        height: 36vh; 
-        width: 43vw;
+        height: 32vh; 
+        width: 46;
 
     }
 }
@@ -290,8 +292,11 @@ h5 {
     #navigation {
         max-height: 10vh;
     }
+    .gallery-image {
+        height: 28vh; 
+        width: 30vw;
 }
-
+}
 /*Extra Large devices (laptops, 1200px and up) */
 /*Media query to address the positioning of the booking button across different screen sizes (mobile first approach)*/
 @media screen and (min-width: 1200px)  {
@@ -303,5 +308,8 @@ h5 {
         max-height: 265.84px;
 
     }
-
+    .gallery-image {
+        height: 25vh; 
+        width: 22vw;
+}
 }
