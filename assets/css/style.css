@@ -197,7 +197,6 @@ h5 {
     background-color: var(--primary-color);
     color: var(--secondary-color);
     padding-top: 2rem;
-    width: 100%;
 }
 
 #footer h2 {
@@ -330,7 +329,8 @@ h5 {
     }
     .gallery-image { 
         width: 18vw;
-        max-height: 200px;
+        max-height: 140px;  /*Adjusted the height to ensure consistent image size on larger screens*/
+        max-width: 240px;  /*Added max width to make images the same size on bigger screens*/
         margin-top: 3rem;
 }
 #gallery {
