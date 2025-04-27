@@ -216,14 +216,20 @@ h5 {
 }
 /*Gallery */
 #gallery {
-    margin: 0;
-    padding: 0;
+    margin: 2rem;
+
     
 }
+
 .gallery-image {
-   height: 62vh; 
+   max-height: 300px;
    width: 100vw;
+   margin: 0.7rem;
+   border-radius: 1rem;
+    border:  2px solid var(--secondary-color);
+    box-shadow: var(--primary-color); /*Box shadow added, not consistent with other shadows from bootstrap*/
 }
+
 /*
 .card  {
     min-height: 72vh;
@@ -258,6 +264,10 @@ h5 {
 @media screen and (min-width: 576px)  {
     body { margin: 0;
     }
+    .gallery-image {
+    max-height: 280px;
+   width: 100vw;
+    }
 }
 /*Medium devices (laptops, 768px and up) */ /*Added to make cards align on tablets*/
 @media screen and (min-width: 768px)  {
@@ -278,8 +288,7 @@ h5 {
          min-width: 4rem;
     }
     .gallery-image {
-        height: 32vh; 
-        width: 46;
+        width: 40vw;
 
     }
 }
@@ -292,9 +301,8 @@ h5 {
     #navigation {
         max-height: 10vh;
     }
-    .gallery-image {
-        height: 28vh; 
-        width: 30vw;
+    .gallery-image { 
+        width: 33vw;
 }
 }
 /*Extra Large devices (laptops, 1200px and up) */
@@ -308,8 +316,7 @@ h5 {
         max-height: 265.84px;
 
     }
-    .gallery-image {
-        height: 25vh; 
-        width: 22vw;
+    .gallery-image { 
+        width: 18vw;
 }
 }
