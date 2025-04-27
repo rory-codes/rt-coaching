@@ -233,6 +233,24 @@ h5 {
     box-shadow: var(--primary-color); /*Box shadow added, not consistent with other shadows from bootstrap*/
 }
 
+/*Booking form*/
+#booking {
+    color: var(--highlight-color-light);
+    margin-top: 6rem;
+    background-color: rgba(191, 193, 197, 0.88);
+    padding-top: 1rem;
+    border-radius: 4px;
+    border: 2px solid var(--primary-color);
+}
+#booking h1{
+    border-radius: 4px;
+    border: 2px solid var(--secondary-color);
+    background-color: rgba(39, 85, 145, 0.58); /*Added to give background colour to heading and make it stand out. Colour from the colour scheme used but rgba selected to change opacity*/
+}
+#booking p {
+    color: var(--lowlight-color);
+}
+
 /*
 .card  {
     min-height: 72vh;
