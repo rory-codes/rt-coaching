@@ -235,9 +235,9 @@ h5 {
 
 /*Booking form*/
 #booking {
-    color: var(--highlight-color-light);
+    color: var(--lowlight-color);
     margin-top: 6rem;
-    background-color: rgba(191, 193, 197, 0.88);
+    background-color: rgba(191, 193, 197, 0.94);
     padding-top: 1rem;
     border-radius: 4px;
     border: 2px solid var(--primary-color);
