@@ -260,6 +260,7 @@ h5 {
     height: 150px;
     padding-bottom: 1.7rem;
     padding-left: 1rem;   
+    opacity: 87%;
 }
 
 .form-label {
@@ -270,7 +271,7 @@ h5 {
     width: 65px;
     float: right;
     margin-right: 40px;
-    border: 2px solid var(--primary-color);
+    border: 2px solid var(--secondary-color);
 }
 /*
 .card  {
