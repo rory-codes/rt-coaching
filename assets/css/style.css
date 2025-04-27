@@ -253,6 +253,9 @@ h5 {
     color: var(--lowlight-color);
 }
 
+#booking .logo-booking {
+    float: center;
+}
 /*
 .card  {
     min-height: 72vh;
