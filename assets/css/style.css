@@ -18,7 +18,7 @@ body {
     font-family: var(--primary-font);
     background-color: var(--lowlight-color); /*Changed background color*/
     position: relative; /*Added position:relative and margin to position content underneath fixed navbar*/
-    margin: 4rem; 
+    margin-top: 4rem; /*Changed margin to margin top to solve issue with footer*/
 }
 
 h1,
