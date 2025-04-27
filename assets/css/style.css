@@ -17,6 +17,8 @@
 body {
     font-family: var(--primary-font);
     background-color: var(--lowlight-color); /*Changed background color*/
+    position: relative; /*Added position:relative and margin to position content underneath fixed navbar*/
+    margin: 4rem; 
 }
 
 h1,
@@ -69,9 +71,11 @@ padding-top:3rem;
     border-radius: 4rem;
     text-align:center;
     max-width: 20%;
-    
 }
 
+.fixed-top {
+    padding: 0;/*Added to remove padding from navbar*/
+}
 /*Target custom class to change color on button when mouse hovers over*/
 
 .booking-button:active {
@@ -193,6 +197,7 @@ h5 {
     background-color: var(--primary-color);
     color: var(--secondary-color);
     padding-top: 2rem;
+    width: 100%;
 }
 
 #footer h2 {
@@ -229,10 +234,6 @@ h5 {
     box-shadow: var(--primary-color); /*Box shadow added, not consistent with other shadows from bootstrap*/
 }
 
-.gallery-image:hover { /*Added to make images more interactive, images will enlarge when mouse hovers*/
-    width: 25%;
-    height: 25%;
-}
 /*
 .card  {
     min-height: 72vh;
@@ -334,6 +335,9 @@ h5 {
 }
 #gallery {
     margin: 40px;
- 
+}
+.gallery-image:hover { /*Added to make images more interactive, images will enlarge when mouse hovers*/
+    width: 25%;
+    height: 25%;
 }
 }
