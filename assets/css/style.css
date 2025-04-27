@@ -46,7 +46,7 @@ padding-top:3rem;
     background-color: var(--highlight-color-light);
     color: var(--lowlight-color);  /*Changed from 40px to ensure responsiveness on mobile devices*/
     font-family: var(--primary-font);
-}
+    }
 /*targeted bootstrap class to change color when mouse hovers over button*/
 .nav-link:hover:hover {
     color: var(--primary-color);
@@ -216,11 +216,10 @@ h5 {
 }
 /*Gallery */
 #gallery {
-    margin: 2rem;
-
-    
+    margin: 10px;
 }
 
+/*Used to adjust the size and styling of the images in the gallery*/
 .gallery-image {
    max-height: 300px;
    width: 100vw;
@@ -230,6 +229,10 @@ h5 {
     box-shadow: var(--primary-color); /*Box shadow added, not consistent with other shadows from bootstrap*/
 }
 
+.gallery-image:hover { /*Added to make images more interactive, images will enlarge when mouse hovers*/
+    width: 25%;
+    height: 25%;
+}
 /*
 .card  {
     min-height: 72vh;
@@ -288,8 +291,12 @@ h5 {
          min-width: 4rem;
     }
     .gallery-image {
-        width: 40vw;
+        width: 300px;
 
+    }
+    #gallery {
+        margin: 15px;
+     
     }
 }
 /*Large devices (laptops, 992px and up) */
@@ -302,7 +309,11 @@ h5 {
         max-height: 10vh;
     }
     .gallery-image { 
-        width: 33vw;
+        width: 400px;
+}
+#gallery {
+    margin: 20px;
+ 
 }
 }
 /*Extra Large devices (laptops, 1200px and up) */
@@ -318,5 +329,11 @@ h5 {
     }
     .gallery-image { 
         width: 18vw;
+        max-height: 200px;
+        margin-top: 3rem;
+}
+#gallery {
+    margin: 40px;
+ 
 }
 }
