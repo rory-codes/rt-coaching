@@ -241,6 +241,8 @@ h5 {
     padding-top: 1rem;
     border-radius: 4px;
     border: 2px solid var(--primary-color);
+    padding-bottom: 3rem;
+    margin-bottom: 4rem;
 }
 #booking h1{
     border-radius: 4px;
