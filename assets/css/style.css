@@ -265,6 +265,13 @@ h5 {
 .form-label {
 
 }
+
+#booking .booking-button {
+    width: 65px;
+    float: right;
+    margin-right: 40px;
+    border: 2px solid var(--primary-color);
+}
 /*
 .card  {
     min-height: 72vh;
