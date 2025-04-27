@@ -329,15 +329,15 @@ h5 {
     }
     .gallery-image { 
         width: 18vw;
-        max-height: 140px;  /*Adjusted the height to ensure consistent image size on larger screens*/
-        max-width: 240px;  /*Added max width to make images the same size on bigger screens*/
+        /*max-height: 140px;  /*Adjusted the height to ensure consistent image size on larger screens*/
+       /* max-width: 240px;  /*Added max width to make images the same size on bigger screens*/
         margin-top: 3rem;
 }
 #gallery {
     margin: 40px;
 }
 .gallery-image:hover { /*Added to make images more interactive, images will enlarge when mouse hovers*/
-    width: 25%;
-    height: 25%;
+    width: 28%;
+    height: 28%;
 }
 }
