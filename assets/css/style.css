@@ -369,7 +369,7 @@ h5 {
     }
     .gallery-image { 
         width: 18vw;
-        /*max-height: 140px;  /*Adjusted the height to ensure consistent image size on larger screens*/
+        /*height: 140px;  /*Adjusted the height to ensure consistent image size on larger screens*/
        /* max-width: 240px;  /*Added max width to make images the same size on bigger screens*/
         margin-top: 3rem;
 }
