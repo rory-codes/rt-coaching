@@ -357,7 +357,10 @@ h5 {
         margin: 15px;  /*Space between images*/
      
     }
-    
+    .form-label { /*Increase space between label and form on larger screen sizes*/
+    margin-right: 25px;
+    padding-right: 10px;
+    }
 }
 /*Large devices (laptops, 992px and up) */
 /*Media query to address the positioning of the booking button across different screen sizes (mobile first approach)*/
