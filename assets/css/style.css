@@ -302,6 +302,15 @@ h5 {
 #success p {
     color: var(--secondary-color);
 }
+
+#success .booking-button {
+    width: 110px;   /*Adjusted button to adjust positioning, give it space and size*/
+    float: right;
+    margin-right: 40px;
+    border: 2px solid var(--secondary-color);
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+}
 /*
 .card  {
     min-height: 72vh;
