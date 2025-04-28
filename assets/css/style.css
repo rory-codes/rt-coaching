@@ -292,6 +292,9 @@ h5 {
     border: 2px solid var(--secondary-color);
 }
 
+#success {
+    color: var(--secondary-color);
+}
 /*
 .card  {
     min-height: 72vh;
