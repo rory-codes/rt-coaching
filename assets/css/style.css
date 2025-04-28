@@ -58,10 +58,14 @@ padding-top:3rem;
     background-color: var(--lowlight-color);
     border-radius: 12px;
     color: var(--secondary-color);
-    border: 2px solid var(--secondary-color); /*Added a border to make button stand out from other nav bar items*/
-    max-width: 14%; /*Changed to % to ensure responsiveness on mobile devices*/
+    border: 2px solid var(--secondary-color); /*Added a border to make button stand out from other nav bar items*/ 
     text-align: center; /*Align text in the middle of button*/
 }
+
+#navigation .booking-button {
+    max-width: 14vw; /*removed from main booking button to specifically target different buttons*/
+}
+
 
 .booking-button-large {  /*Class added to target larger button on header*/
     height: 60%;
@@ -187,7 +191,7 @@ h5 {
     color: var(--lowlight-color);
 }
 
-.accordion-body {
+.accordion-body { /*Change colours to match pallette*/
     background-color: var(--lowlight-color);
     color: var(--secondary-color);
 }
@@ -230,7 +234,7 @@ h5 {
    margin: 0.7rem;
    border-radius: 1rem;
     border:  2px solid var(--secondary-color);
-    box-shadow: var(--primary-color); /*Box shadow added, not consistent with other shadows from bootstrap*/
+    box-shadow: var(--primary-color); /*Box shadow added, not consistent with other shadows using bootstrap due to colour being targetd*/
 }
 
 /*Booking form*/
@@ -238,11 +242,11 @@ h5 {
     color: var(--lowlight-color);
     margin-top: 6rem;
     background-color: rgba(191, 193, 197, 0.94);
-    padding-top: 1rem;
+    padding-top: 1rem;/*Added to give space at the top of form and seperate from navbar*/
     border-radius: 4px;
     border: 2px solid var(--primary-color);
-    padding-bottom: 3rem;
-    margin-bottom: 4rem;
+    padding-bottom: 3rem;  /*Added to give space at the bottom of form and seperate from footer*/
+    margin-bottom: 4rem;/*Added to give space at the bottom of form and seperate from footer*/
 }
 #booking h1{
     border-radius: 4px;
@@ -250,24 +254,23 @@ h5 {
     background-color: rgba(158, 191, 209, 0.58); /*Added to give background colour to heading and make it stand out. Colour from the colour scheme used but rgba selected to change opacity*/
 }
 #booking p {
-    color: var(--lowlight-color);
+    color: var(--lowlight-color); /*Change colour to improve accessibility*/
 }
 
 /*Form entries*/
 #booking .logo-booking { 
-    float: center;
     width: 150px;
     height: 150px;
-    padding-bottom: 1.7rem;
+    padding-bottom: 1.7rem; /*adjusted the logo to give it space, adjust opacicity, size and position of logo*/
     padding-left: 1rem;   
     opacity: 87%;
 }
 
 .form-item {
-    padding: 9px;
+    padding: 9px;  /*Give space from other entries*/
 }
 .form-label {
-    padding-right: 3px;
+    padding-right: 3px; /*Give form label space either side*/
     padding-left: 3px;
 }
 
@@ -275,13 +278,13 @@ h5 {
     float: right;
 }
 
-.form-check-input {
+.form-check-input { /*Changed colours to match pallette*/
     color: var(--primary-color);
     background-color: var(--highlight-color-light);
 }
 
 #booking .booking-button {
-    width: 65px;
+    width: 65px;   /*Adjusted button to adjust positioning, give it space and size*/
     float: right;
     margin-right: 40px;
     border: 2px solid var(--secondary-color);
@@ -345,14 +348,14 @@ h5 {
          min-width: 4rem;
     }
     .gallery-image {
-        width: 300px;
+        width: 300px; /*Increase width*/
 
     }
     #gallery {
-        margin: 15px;
+        margin: 15px;  /*Space between images*/
      
     }
-    .form-label {
+    .form-label { /*Increase space between label and form on larger screen sizes*/
     margin-right: 25px;
     padding-right: 10px;
     }
@@ -369,9 +372,8 @@ h5 {
     .gallery-image { 
         width: 400px;
 }
-#gallery {
+#gallery { /*Give gallery space on larger screens*/
     margin: 20px;
- 
 }
 }
 /*Extra Large devices (laptops, 1200px and up) */
@@ -381,8 +383,8 @@ h5 {
         min-width: 50px;              
     }
     #sports .card img {
-        width: auto;
-        height: auto;
+        width: auto; 
+        min-height: 265.84px;
 
     }
     .gallery-image { 
