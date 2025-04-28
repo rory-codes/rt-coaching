@@ -221,7 +221,9 @@ h5 {
     border-radius: 1rem;
     border:  2px solid var(--secondary-color);
     box-shadow: var(--primary-color); /*Box shadow added, not consistent with other shadows from bootstrap*/
+    padding-right: 25px; /*Added to move map away from the edge of the column and align with footer"
 }
+
 /*Gallery */
 #gallery {
     margin: 10px;
