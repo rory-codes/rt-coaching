@@ -50,7 +50,7 @@ padding-top:3rem;
     font-family: var(--primary-font);
     }
 /*targeted bootstrap class to change color when mouse hovers over button*/
-.nav-link:hover:hover {
+.nav-link:hover {
     color: var(--primary-color);
 }
 
@@ -264,6 +264,9 @@ h5 {
 }
 
 .form-item {
+    margin: 3px;
+}
+.form-label {
 padding: 2px;
 }
 
@@ -278,6 +281,7 @@ padding: 2px;
     margin-right: 40px;
     border: 2px solid var(--secondary-color);
 }
+
 /*
 .card  {
     min-height: 72vh;
