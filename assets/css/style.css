@@ -291,8 +291,15 @@ h5 {
     margin-right: 40px;
     border: 2px solid var(--secondary-color);
 }
+#success h1, 
+h2, 
+h3, 
+h4, 
+h5 {
+    color: var(--highlight-color);
+}
 
-#success {
+#success p {
     color: var(--secondary-color);
 }
 /*
