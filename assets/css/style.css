@@ -221,7 +221,7 @@ h5 {
     border-radius: 1rem;
     border:  2px solid var(--secondary-color);
     box-shadow: var(--primary-color); /*Box shadow added, not consistent with other shadows from bootstrap*/
-    padding-right: 25px; /*Added to move map away from the edge of the column and align with footer"
+    padding-right: 25px; /*Added to move map away from the edge of the column and align with footer*/
 }
 
 /*Gallery */
@@ -357,10 +357,7 @@ h5 {
         margin: 15px;  /*Space between images*/
      
     }
-    .form-label { /*Increase space between label and form on larger screen sizes*/
-    margin-right: 25px;
-    padding-right: 10px;
-    }
+    
 }
 /*Large devices (laptops, 992px and up) */
 /*Media query to address the positioning of the booking button across different screen sizes (mobile first approach)*/
