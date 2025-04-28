@@ -264,10 +264,15 @@ h5 {
 }
 
 .form-item {
-    margin: 3px;
+    padding: 9px;
 }
 .form-label {
-padding: 2px;
+    padding-right: 3px;
+    padding-left: 3px;
+}
+
+.form-input {   /*Added to align form input to the right of the column*/
+    float: right;
 }
 
 .form-check-input {
@@ -346,6 +351,10 @@ padding: 2px;
     #gallery {
         margin: 15px;
      
+    }
+    .form-label {
+    margin-right: 25px;
+    padding-right: 10px;
     }
 }
 /*Large devices (laptops, 992px and up) */
