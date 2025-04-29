@@ -139,6 +139,11 @@ header {
     background-color: var(--highlight-color);
 }
 
+#sports .card img {
+    /*Added to a border to the images on the card and make them stand out slightly and appear more succinct*/
+    border-radius: 4px;
+    border: 2px solid var(--secondary-color);
+}
 #sports .card .booking-button {  /*Added to move button on cards to the right of the button*/
     float: right; 
     margin-right: 0.7rem;
