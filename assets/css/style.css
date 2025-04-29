@@ -421,4 +421,11 @@ h5 {
     width: 28%;
     height: 28%;
 }
+.form-label {
+    padding-right: 0; /*Give form label space either side*/
+    padding-left: 0;
+}
+.form-input {
+    float: inline-start; /*Added to improve layout and bigger screen*/
+}
 }
