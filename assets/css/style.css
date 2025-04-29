@@ -237,7 +237,7 @@ h5 {
 /*Used to adjust the size and styling of the images in the gallery*/
 .gallery-image {
    max-height: 300px;
-   width: 100vw;
+   width: 380px;
    margin: 0.7rem;
    border-radius: 1rem;
     border:  2px solid var(--secondary-color);
@@ -351,8 +351,8 @@ h5 {
     body { margin: 0;
     }
     .gallery-image {
-    max-height: 280px;
-   width: 100vw;
+    max-height: 75vh;
+   width: 75vw;
     }
 }
 /*Medium devices (laptops, 768px and up) */ /*Added to make cards align on tablets*/
@@ -374,11 +374,13 @@ h5 {
          min-width: 4rem;
     }
     .gallery-image {
-        width: 300px; /*Increase width*/
+        width: 280px; /*Increase width*/
+        height: 245px;
 
     }
     #gallery {
-        margin: 15px;  /*Space between images*/
+        margin: 60px;  /*Space between images*/
+        padding: 10px
      
     }
     .form-label { /*Increase space between label and form on larger screen sizes*/
