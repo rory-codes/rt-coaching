@@ -69,8 +69,8 @@ padding-top:3rem;
 
 .booking-button-large {  /*Class added to target larger button on header*/
     height: 60%;
-    background-color: var(--lowlight-color);
-    color: var(--secondary-color);
+    background-color: var(--highlight-color);/*Changed colour of button to make it stand out more*/
+    color: var(--lowlight-color);   
     border: 2px solid var(--secondary-color);
     border-radius: 4rem;
     text-align:center;
@@ -80,7 +80,7 @@ padding-top:3rem;
 .fixed-top {
     padding: 0;/*Added to remove padding from navbar*/
 }
-/*Target custom class to change color on button when mouse hovers over*/
+/*Target custom class to change color of button when mouse is clicked over and also make text uppercase*/
 
 .booking-button:active {
     background-color: var(--highlight-color);
@@ -123,10 +123,10 @@ header {
 }
 
 #sports h1 {
-    color: var(--highlight-color-light);
-    background-color: rgba(39, 85, 145, 0.32); /*Added to give background colour to heading and make it stand out. Colour from the colour scheme used but rgba selected to change opacity*/
+    color: var(--lowlight-color);
+    background-color: rgba(158, 191, 209, 0.78); /*Added to give background colour to heading and make it stand out. Colour from the colour scheme used but rgba selected to change opacity*/
     border-radius: 4px;
-    border: 2px solid var(--secondary-color);
+    border: 2px solid var(--primary-color);
 }
 
 #sports .card {
@@ -150,6 +150,9 @@ header {
     padding: 0.42rem; /*Added to make button less cramped*/
 }
 
+#sports .card .booking-button:hover { 
+    color: var(--primary-color);  /*Added to make card buttons change color when mouse is hovered over button*/
+}
 .card-title {
     background-color: rgba(39, 85, 145, 0.32); /*Added to give background colour heading to make it stand out more, colour from the colour scheme used but rgba selected to change opacity*/
     border-radius: 4px;
@@ -169,10 +172,10 @@ header {
 
 #services
 h1 {
-    color: var(--highlight-color-light);
-    background-color: rgba(39, 85, 145, 0.32); /*Added to give background colour to title of cards to seperate text, colour from the colour scheme used but rgba selected to change opacity*/
+    color: var(--lowlight-color);
+    background-color: rgba(158, 191, 209, 0.78); /*Added to give background colour to heading and make it stand out. Colour from the colour scheme used but rgba selected to change opacity*/
     border-radius: 4px;
-    border: 2px solid var(--secondary-color);
+    border: 2px solid var(--primary-color);
 }
 
 #services 
@@ -209,7 +212,8 @@ h5 {
 }
 
 #footer h2 {
-    background-color: rgba(150, 176, 201, 0.32); /*Added to give background colour to title of cards to seperate text, colour from the colour scheme used but rgba selected to change opacity*/
+    color: var(--lowlight-color);
+    background-color: rgba(158, 191, 209, 0.78); /*Added to give background colour to heading and make it stand out. Colour from the colour scheme used but rgba selected to change opacity*/
     border-radius: 4px;
     border: 2px solid var(--secondary-color);
 }
