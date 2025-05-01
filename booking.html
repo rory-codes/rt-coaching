@@ -126,7 +126,7 @@
                         <p>All Fields with * are required to be filled out.</p>
                     </div>
                     <div  class="col-12 col-lg-6">
-                        <form action="success.html" method="GET" class="row">
+                      <form action="mailto:rory.thompson@outlook.com" method="post" enctype="text/plain" class="row">
                             <div class="row">
                                     <div class="col-12 col-lg-6 form-item">
                                         <label for="fname" class="form-label">First name*</label>
@@ -178,9 +178,14 @@
                                         <input class="form-check-input" type="checkbox" value="" id="checkbox"
                                         >
                                     </div>
+                                    <!-- Coded added to ensure form redirects to success.html after form is submitted -->
+                                        <input type="hidden" name="_captcha" value="false">
+                                        <input type="hidden" name="_next" value="https://yourdomain.com/success.html">
+
                                     <div class="pt-3">
-                                      <input type="submit" class="nav-link booking-button" value="Book now"><!--Changed from original button to address form not requiring needed fields-->
+                                        <input type="submit" class="nav-link booking-button" value="Book now">
                                     </div>
+                                    
                                   </form>
                                 </div>
                             </div>
