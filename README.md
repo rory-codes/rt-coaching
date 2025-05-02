@@ -225,3 +225,39 @@ As a child interested in coaching, I want to see reviews or testimonials from ot
 ## Design
 
 ### Wireframes
+
+<br>
+
+#### Home page
+
+(With 2 sections, a header, a footer and naviagation)
+
+![Home](docs/wireframes/mobile-home.bmpr) 
+
+![Home](docs/wireframes/tablet-home.bmpr)
+
+![Home](docs/wireframes/laptop-home.bmpr)
+ <br>
+#### Gallery
+
+![Home](docs/wireframes/mobile-gallery.bmpr) 
+
+![Home](docs/wireframes/tablet-gallery.bmpr) 
+
+![Home](docs/wireframes/laptop-gallery.bmpr) 
+
+#### Booking inquiry form
+
+![Home](docs/wireframes/mobile-booking.bmpr) 
+
+![Home](docs/wireframes/tablet-booking.bmpr) 
+
+![Home](docs/wireframes/laptop-booking.bmpr) 
+
+#### Success page
+
+![Home](docs/wireframes/mobile-success.bmpr)
+
+![Home](docs/wireframes/tablet-success.bmpr)
+
+![Home](docs/wireframes/laptop-success.bmpr)
