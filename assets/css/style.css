@@ -101,7 +101,7 @@ padding-top:3rem;
 }
 /*Header section*/
 header {
-    background: url(../images/hero-image.png); /*Background image added to create hero image*/
+    background: url(../images/hero-image.webp); /*Background image added to create hero image*/
     width: 100vw;
     background-size: cover;
     background-position: center;
