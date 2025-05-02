@@ -327,12 +327,13 @@ Manual tests were performed to identify problematic issues, they are as follows:
 - **Fix**: 
 
 #### Issue #5: 
-- **Problem**: 
+- **Problem**: alignment of form labels and input fields on large screen sizes (1400px and above) in booking.html and card images causing alignment issues on same screen sizes.
 - **Fix**:
-- 
+- 2 media queries were introduces on screens above 1400px. They are: targeting the image size in the cards within the sports section and targeting padding and margins in form-label class within the booking ID.
+ 
 #### Issue #6: 
-- **Problem**: 
-- **Fix**:
+- **Problem**: Accessibility issues with the text in the footer.
+- **Fix**: Change the structure to ensure accessibility whilst also remaining consistent with brand colouring.
 - 
 #### Issue #7: 
 - **Problem**: 
@@ -341,3 +342,17 @@ Manual tests were performed to identify problematic issues, they are as follows:
 #### Issue #8: 
 - **Problem**: 
 - **Fix**: 
+
+### Lighthouse Testing Before Fixes
+
+#### Home (index.html)
+![Home](docs/read-me-images/home-test1.png)
+
+#### Booking (booking.html)
+![Home](docs/read-me-images/booking-test1.png)
+
+#### gallery (gallery.html)
+![Home](docs/read-me-images/gallery-test1.png)
+
+
+
