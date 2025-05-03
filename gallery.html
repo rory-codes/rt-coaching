@@ -53,6 +53,21 @@
 
     <!-- custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css" />
+<!-- Preload gallery images -->
+    <link rel="preload" href="assets/images/badminton.webp" as="image" type="image/webp"> <!--Preloaded to improve performance-->
+    <link rel="preload" href="assets/images/bb-child.webp" as="image" type="image/webp"> <!--Preloaded to improve performance-->
+    <link rel="preload" href="assets/images/celebration.webp" as="image" type="image/webp"> <!--Preloaded to improve performance-->
+    <link rel="preload" href="assets/images/children-activity.webp" as="image" type="image/webp"> <!--Preloaded to improve performance-->
+    <link rel="preload" href="assets/images/children-football.webp" as="image" type="image/webp"> <!--Preloaded to improve performance-->
+    <link rel="preload" href="assets/images/cricket.webp" as="image" type="image/webp"> <!--Preloaded to improve performance-->
+    <link rel="preload" href="assets/images/football-children.webp" as="image" type="image/webp"> <!--Preloaded to improve performance-->
+    <link rel="preload" href="assets/images/multi-sports.webp" as="image" type="image/webp"> <!--Preloaded to improve performance-->
+    <link rel="preload" href="assets/images/parachute-games.webp" as="image" type="image/webp"> <!--Preloaded to improve performance-->
+
+     <!--Preload & connect for google fonts to increase performance load time-->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
   </head>
 
   <!--Classes added to body to stretch content across entire viewport when combined with mt-auto-->
@@ -69,7 +84,7 @@
         <!--bg-body-tertiary class removed to change background color of navbar-->
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">
-            <img
+            <img  
               src="assets/images/rt.webp"
               alt="RT coaching logo (Takes user to home page when clicked)"
               class="logo"
@@ -155,33 +170,33 @@
               <img
                 class="gallery-image img-fluid"
                 src="assets/images/celebration.webp"
-                alt="Child celebrating by raising arms and shouting."
-              />
+                alt="Child celebrating by raising arms and shouting." loading="lazy"
+              /><!--Adding loading="lazy" to increase performance-->
               <img
                 class="gallery-image img-fluid"
                 src="assets/images/children-football.webp"
-                alt="Young children playing football"
-              />
+                alt="Young children playing football" loading="lazy"
+              /><!--Adding loading="lazy" to increase performance-->
               <img
                 class="gallery-image img-fluid"
                 src="assets/images/cricket.webp"
-                alt="Player batting the ball in cricket."
-              />
+                alt="Player batting the ball in cricket."loading="lazy"
+              /><!--Adding loading="lazy" to increase performance-->
               <img
                 class="gallery-image img-fluid"
                 src="assets/images/parachute-games.webp"
-                alt="Parachute with various balls on top."
-              />
+                alt="Parachute with various balls on top."loading="lazy"
+              /><!--Adding loading="lazy" to increase performance-->
               <img
                 class="gallery-image img-fluid"
                 src="assets/images/rugby-pass.webp"
-                alt="Player preparing to throw a rugby ball."
-              />
+                alt="Player preparing to throw a rugby ball." loading="lazy"
+              /><!--Adding loading="lazy" to increase performance-->
               <img
                 class="gallery-image img-fluid"
                 src="assets/images/children-activity.webp"
-                alt="Children moving through a ladder."
-              />
+                alt="Children moving through a ladder." loading="lazy"
+              /> <!--Adding loading="lazy" to increase performance-->
             </div>
           </div>
         </div>

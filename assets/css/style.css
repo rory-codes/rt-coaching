@@ -1,11 +1,11 @@
-/*Google fonts import*/
+/*Google fonts import*//*Kanit and Source sans*/
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 
 /* CSS Variables added to manage fonts and colour scheme*/
 /*Root*/
 :root {
     --primary-font: "kanit";
-    --secondary-font: "Source-sans-3";
+    --secondary-font: "Source sans 3";
     --primary-color: #275591;
     --secondary-color: #BFC1C5;
     --highlight-color: #96B0C9;
@@ -218,6 +218,7 @@ h5 {
     border: 2px solid var(--secondary-color);
 }
 
+
 /*Change the colour of social links to match colour scheme*/
 .socials {
     background-color: var(--highlight-color-light);
@@ -349,6 +350,8 @@ h5 {
 
 
 /*Media queries*/
+    
+
 /*Small devices (laptops, 576px and up) */
 @media screen and (min-width: 576px)  {
     body { margin: 0;
