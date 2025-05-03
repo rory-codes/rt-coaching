@@ -27,7 +27,6 @@ h3,
 h5 {
     font-family: var(--secondary-color);
     margin-bottom: 2rem;
-    margin-top: 59px;/*Added to solve issue with navigation leading you to sections where the heading is not visible*/
 
     
 }
@@ -130,6 +129,7 @@ header {
     background-color: rgba(158, 191, 209, 0.78); /*Added to give background colour to heading and make it stand out. Colour from the colour scheme used but rgba selected to change opacity*/
     border-radius: 4px;
     border: 2px solid var(--primary-color);
+    margin-top: 59px;/*Added to solve issue with navigation leading you to sections where the heading is not visible*/
 }
 
 #sports .card {
@@ -179,6 +179,7 @@ h1 {
     background-color: rgba(158, 191, 209, 0.78); /*Added to give background colour to heading and make it stand out. Colour from the colour scheme used but rgba selected to change opacity*/
     border-radius: 4px;
     border: 2px solid var(--primary-color);
+    margin-top: 59px;/*Added to solve issue with navigation leading you to sections where the heading is not visible*/
 }
 
 #services 
@@ -190,6 +191,7 @@ h5 {
 /*Accordion*/
 #services-accordion { /* Change text color, custom class*/
     color: var(--highlight-color-light);
+
 }
 /*Change paragraph colour within accordion section of services using custom ID*/
 #services-accordion p {
@@ -215,7 +217,7 @@ h5 {
 }
 
 #footer h2 {
-    color: var(--lowlight-color);
+    color: var(--primary-color);
     background-color: rgba(158, 191, 209, 0.78); /*Added to give background colour to heading and make it stand out. Colour from the colour scheme used but rgba selected to change opacity*/
     border-radius: 4px;
     border: 2px solid var(--secondary-color);
@@ -224,8 +226,8 @@ h5 {
 
 /*Change the colour of social links to match colour scheme*/
 .socials {
-    background-color: var(--primary-color);
-    color: var(--lowlight-color);   
+    background-color: var(--lowlight-color);
+    color: var(--secondary-color);   
     margin-left: 1rem;
 }
 
