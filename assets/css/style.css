@@ -6,11 +6,11 @@
 :root {
     --primary-font: "kanit";
     --secondary-font: "Source sans 3";
-    --primary-color: #275591;
-    --secondary-color: #BFC1C5;
-    --highlight-color: #96B0C9;
-    --highlight-color-light: #9EBFD1;
-    --lowlight-color: #161412;
+    --primary-color: #275591;             /*Usage- Heading backgrounds, borders*/
+    --secondary-color: #BFC1C5;           /*Usage- Button borders, text*/
+    --highlight-color: #96B0C9;           /*Usage- Button backgrounds, titles*/
+    --highlight-color-light: #9EBFD1;     /*Usage- Navbar, background highlights*/
+    --lowlight-color: #161412;            /*Usage= Background and text*/
 }
 
 /*Global styles*/
@@ -27,6 +27,8 @@ h3,
 h5 {
     font-family: var(--secondary-color);
     margin-bottom: 2rem;
+    margin-top: 59px;/*Added to solve issue with navigation leading you to sections where the heading is not visible*/
+
     
 }
 
@@ -40,7 +42,8 @@ h2 {
 }
 
 .padding-3 {
-padding-top:3rem;
+padding-top: 3rem;
+
 }
 
 /*Navigation*/
@@ -54,7 +57,7 @@ padding-top:3rem;
     color: var(--primary-color);
 }
 
-.booking-button {
+.booking-button {                         /*Rounded, bordered, dark bg, light text*/
     background-color: var(--lowlight-color);
     border-radius: 12px;
     color: var(--secondary-color);
@@ -66,7 +69,7 @@ padding-top:3rem;
     max-width: 14vw; /*removed from main booking button to specifically target different buttons*/
 }
 
-
+/*Larger, curved (border-radius 4rem), background highlight-color*/
 .booking-button-large {  /*Class added to target larger button on header*/
     height: 60%;
     background-color: var(--highlight-color);/*Changed colour of button to make it stand out more*/
@@ -206,9 +209,9 @@ h5 {
 
 /*Footer*/
 #footer {
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
-    padding-top: 2rem;
+    background-color:  rgba(158, 191, 209, 0.78);
+    color: var(--lowlight-color);
+    width: 100vw;
 }
 
 #footer h2 {
@@ -221,8 +224,8 @@ h5 {
 
 /*Change the colour of social links to match colour scheme*/
 .socials {
-    background-color: var(--highlight-color-light);
-    color: var(--primary-color);   
+    background-color: var(--primary-color);
+    color: var(--lowlight-color);   
     margin-left: 1rem;
 }
 
@@ -295,7 +298,7 @@ h5 {
 }
 
 #booking .booking-button {
-    width: 65px;   /*Adjusted button to adjust positioning, give it space and size*/
+    width: 100px;   /*Adjusted button to adjust positioning, give it space and size*/
     float: right;
     margin-right: 40px;
     border: 2px solid var(--secondary-color);
@@ -357,8 +360,8 @@ h5 {
     body { margin: 0;
     }
     .gallery-image {
-    max-height: 75vh;
-   width: 75vw;
+    max-height: 200px;
+  max-width: 200px;
     }
 }
 /*Medium devices (laptops, 768px and up) */ /*Added to make cards align on tablets*/
@@ -380,8 +383,8 @@ h5 {
          min-width: 4rem;
     }
     .gallery-image {
-        width: 280px; /*Increase width*/
-        height: 245px;
+       max-width: 280px; /*Increase width*/
+       max-height: 280px;
 
     }
     #gallery {
@@ -404,7 +407,12 @@ h5 {
         max-height: 10vh;
     }
     .gallery-image { 
-        width: 400px;
+        max-width: 300px;
+        max-height: 300px;
+}
+.form-label {
+    padding-right: 0; /*Give form label space either side*/
+    padding-left: 0;
 }
 #gallery { /*Give gallery space on larger screens*/
     margin: 20px;
@@ -422,8 +430,8 @@ h5 {
 
     }
     .gallery-image { 
-        width: 18vw; 
-        height: 200px;  /*Adjusted the height to ensure consistent image size on larger screens*/
+        max-width: 315px ; 
+        max-height: 315px;  /*Adjusted the height to ensure consistent image size on larger screens*/
        /* max-width: 240px;  /*Added max width to make images the same size on bigger screens*/
         margin-top: 2.5rem;
 }
@@ -431,9 +439,10 @@ h5 {
     margin: 40px;
     padding: 10px;
 }
+
 .gallery-image:hover { /*Added to make images more interactive, images will enlarge when mouse hovers*/
-    width: 28%;
-    height: 28%;
+   /* width: 50%;
+    height: 50%;*/
 }
 .form-label {
     padding-right: 0; /*Give form label space either side*/
@@ -442,4 +451,18 @@ h5 {
 .form-input {
     float: inline-start; /*Added to improve layout and bigger screen*/
 }
+}
+
+/*Extra Large devices (laptops, 1400px and up) */
+/*Media query to address the size of card images and positioning of form elements different screen sizes (mobile first approach)*/
+@media screen and (min-width: 1400px)  {
+
+    #sports .card img {
+        width: auto; 
+        min-height: 323.55px;
+    }
+    .form-label { /*Increase space between label and form on larger screen sizes*/
+        margin-bottom: 40px;
+        padding-right: 10px;
+        }
 }
