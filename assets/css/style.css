@@ -92,7 +92,7 @@ padding-top: 3rem;
 
 /*Class added to target the size of the logo for the navbar*/    
 .logo {
-    max-height: 8%;  
+    height: 55px;  
 }
 
 .logo-header {
@@ -423,7 +423,7 @@ h5 {
 /*Extra Large devices (laptops, 1200px and up) */
 /*Media query to address the positioning of the booking button across different screen sizes (mobile first approach)*/
 @media screen and (min-width: 1200px)  {
-   #sports .booking-button  {
+    #sports .booking-button  {
         min-width: 50px;              
     }
     #sports .card img {
