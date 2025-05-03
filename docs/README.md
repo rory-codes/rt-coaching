@@ -177,7 +177,7 @@ As a child interested in coaching, I want to see reviews or testimonials from ot
 
 ***Readable Layout:** The website has been produved to have a clean design with easily readable sections to minimise information overload.
 
-***Minimalist Design:** There is a clear focus on important information (header, sports, services) with minimal distractions. The gallery includes images and the form includes a logo and form entries.
+***Minimalist Design:** There is a clear focus on important information (header, sports, services, footer, gallery, booking and success) with minimal distractions. The gallery includes images and the form includes a logo and form entries.
 
 ## Technologies Used
 
@@ -281,7 +281,7 @@ The following criteria were the main focus of the testing:
 Every page was examined to make sure it would work on Chrome, Edge, and Firefox screens that were 320 pixels or larger.
 
 
-**How the was conducted test:**
+**Testing protocol:**
 
 1. Go to [Portfolio](https://rory-codes.github.io/rt-coaching/index.html) in an open browser.
 2. Right-click and select "Inspect" to open the developer tools.
@@ -324,7 +324,7 @@ Manual tests were performed to identify problematic issues, they are as follows:
 
 #### Issue #4: 
 - **Problem**: Footer is not spanning the full width on mobile devices causing the map to look unaligned.
-- **Fix**: 
+- **Fix**: (Still unable to solve the issue)
 
 #### Issue #5: 
 - **Problem**: alignment of form labels and input fields on large screen sizes (1400px and above) in booking.html and card images causing alignment issues on same screen sizes.
@@ -336,25 +336,29 @@ Manual tests were performed to identify problematic issues, they are as follows:
 - **Fix**: Change the color to ensure accessibility whilst also remaining consistent with brand colouring.
 - 
 #### Issue #7: 
-- **Problem**: Alignment of 'book now' button in the navbar becoming unaligned on tablet. Form booking button also needs resizing to fit content on all device sizes.
-- **Fix**:
+- **Problem**: Alignment of headers when navbar links are used means that you cannot see the heading due to the fixed navbar
+- **Fix**: padding top added to h1 elements and this solved the issue.
 
 #### Issue #8: Slow Font Loading accross all pages.
 **Problem**:Performance was being slowed down by imported Google fonts.
-**Fix**: Preloaded fonts were added to the head using `<link rel="preload">` and `<link rel="preconnect"…>`. This will guarantee that the preferred font styles are loaded first, improving user experience and speeding up page loads.
+**Fix**: Preloaded fonts were added to the head using `<link rel="preload">` and `<link rel="preconnect"…>`. This will guarantee that the preferred font styles are loaded first, improving UX and speeding up page loads.
 
   
 #### Issue #9: 
 - **Problem**: Large contentful plains slowing down performance.
-- **Fix**: 
+- **Fix**: Preloaded certain content in the home page and gallery to boost performance. link rel=preload" as="image". Also introduced loading="lazy" for items that were not visible straight away to users when they open the  site.
 
 #### Issue #10: 
 - **Problem**: Unused CSS or javascript slowing down performance.
-- **Fix**:
+- **Fix**: Remove unsed CSS and JS for bootstrap which wasn't used on certain pages.
 
 #### Issue #11:
 -**Problem**: Gallery images not adhering to correct height and width ratios.
--**Fix**:
+-**Fix**: Adjusted width and height to max-width and max-height. Previously I was forcing images into a consistent size. However, I believe it works better and looks better with different sized images.
+
+#### Issue #12: Heading elements are not in a sequentially-descending order
+-**Problem**: Heading did not move through sequentially-descending order and instead had a h3 after a h5.
+-**Fix**: Change headings to follow correct order.
 
 
 ### Lighthouse Testing Before Fixes
@@ -367,8 +371,47 @@ Manual tests were performed to identify problematic issues, they are as follows:
 
 #### gallery (gallery.html)
 ![Home](docs/read-me-images/gallery-test1.png)
+No screenshots taken before images were changed from png to webp and therefore, performance increase for change not logged with an image. 
 
 #### Success (success.html)
 ![Home](docs/read-me-images/success-test1.png)
+
+
+### Lighthouse Testing After Fixes
+
+#### Home (index.html)
+![Home](docs/read-me-images/home-test2.png)
+
+#### Booking (booking.html)
+![Home](docs/read-me-images/booking-test2.png)
+
+#### gallery (gallery.html)
+![Home](docs/read-me-images/gallery-test2.png)
+No screenshots taken before images were changed from png to webp and therefore, performance increase for change not logged with an image. 
+
+#### Success (success.html)
+![Home](docs/read-me-images/success-test2.png)
+
+### Functionality testing
+
+ **Navigation**
+
+ To ensure that all navigation links lead to the appropriate pages and sections, testing was done.  To accomplish this, each page's navigation links were clicked.
+
+ | Page to Load | 
+ | --------------- | ---------------| 
+ | Home  | index.html | 
+ | Sports | index.html#sports |
+ | Services | index.html#services |
+ | Gallery | gallery.html |
+ | Booking | booking.html | 
+ | Success | success.html | |
+
+
+ All of the page links led to the appropriate sections and pages as planned.
+
+ **Form Testing**
+
+The form on the home page was tested to ensure it functioned as intended when the correct data type was input and required fields were entered/selected.
 
 
