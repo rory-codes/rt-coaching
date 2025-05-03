@@ -4,7 +4,7 @@
 /* CSS Variables added to manage fonts and colour scheme*/
 /*Root*/
 :root {
-    --primary-font: "kanit";
+    --primary-font: 'kanit';
     --secondary-font: "Source sans 3";
     --primary-color: #275591;             /*Usage- Heading backgrounds, borders*/
     --secondary-color: #BFC1C5;           /*Usage- Button borders, text*/
