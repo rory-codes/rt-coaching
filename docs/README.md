@@ -333,15 +333,29 @@ Manual tests were performed to identify problematic issues, they are as follows:
  
 #### Issue #6: 
 - **Problem**: Accessibility issues with the text in the footer.
-- **Fix**: Change the structure to ensure accessibility whilst also remaining consistent with brand colouring.
+- **Fix**: Change the color to ensure accessibility whilst also remaining consistent with brand colouring.
 - 
 #### Issue #7: 
-- **Problem**: 
+- **Problem**: Alignment of 'book now' button in the navbar becoming unaligned on tablet. Form booking button also needs resizing to fit content on all device sizes.
 - **Fix**:
-- 
-#### Issue #8: 
-- **Problem**: 
+
+#### Issue #8: Slow Font Loading accross all pages.
+**Problem**:Performance was being slowed down by imported Google fonts.
+**Fix**: Preloaded fonts were added to the head using `<link rel="preload">` and `<link rel="preconnect"…>`. This will guarantee that the preferred font styles are loaded first, improving user experience and speeding up page loads.
+
+  
+#### Issue #9: 
+- **Problem**: Large contentful plains slowing down performance.
 - **Fix**: 
+
+#### Issue #10: 
+- **Problem**: Unused CSS or javascript slowing down performance.
+- **Fix**:
+
+#### Issue #11:
+-**Problem**: Gallery images not adhering to correct height and width ratios.
+-**Fix**:
+
 
 ### Lighthouse Testing Before Fixes
 
@@ -354,5 +368,7 @@ Manual tests were performed to identify problematic issues, they are as follows:
 #### gallery (gallery.html)
 ![Home](docs/read-me-images/gallery-test1.png)
 
+#### Success (success.html)
+![Home](docs/read-me-images/success-test1.png)
 
 
