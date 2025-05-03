@@ -240,24 +240,135 @@ As a child interested in coaching, I want to see reviews or testimonials from ot
  <br>
 #### Gallery
 
-![Home](docs/wireframes/mobile-gallery.bmpr) 
+![Gallery](docs/wireframes/mobile-gallery.bmpr) 
 
-![Home](docs/wireframes/tablet-gallery.bmpr) 
+![Gallery](docs/wireframes/tablet-gallery.bmpr) 
 
-![Home](docs/wireframes/laptop-gallery.bmpr) 
+![Gallery](docs/wireframes/laptop-gallery.bmpr) 
+
+<br>
 
 #### Booking inquiry form
 
-![Home](docs/wireframes/mobile-booking.bmpr) 
+![Booking inquiry form](docs/wireframes/mobile-booking.bmpr) 
 
-![Home](docs/wireframes/tablet-booking.bmpr) 
+![Booking inquiry form](docs/wireframes/tablet-booking.bmpr) 
 
-![Home](docs/wireframes/laptop-booking.bmpr) 
+![Booking inquiry form](docs/wireframes/laptop-booking.bmpr) 
 
 #### Success page
 
-![Home](docs/wireframes/mobile-success.bmpr)
+![Success](docs/wireframes/mobile-success.bmpr)
 
-![Home](docs/wireframes/tablet-success.bmpr)
+![Success](docs/wireframes/tablet-success.bmpr)
 
-![Home](docs/wireframes/laptop-success.bmpr)
+![Success](docs/wireframes/laptop-success.bmpr)
+<br>
+
+## Testing
+
+The delivered website was developed and tested using Chrome DevTools to look for accessibility problems.
+
+The following criteria were the main focus of the testing:
+* To guarantee accessibility for visually impaired users, each form has a "screen-read" tag attached.
+* In order to demonstrate the significance and meaning of the text, headings are not omitted.
+* For screen readers, alternative descriptive language is included with every image and media item. This helps 
+ ensure adherence to the suggested coding protocol for WCAG 2.1.
+* Ensure website is responsive and performs well across various screen sizes with no obvious errors.
+
+### Reactivity
+
+Every page was examined to make sure it would work on Chrome, Edge, and Firefox screens that were 320 pixels or larger.
+
+
+**How the was conducted test:**
+
+1. Go to [Portfolio](https://rory-codes.github.io/rt-coaching/index.html) in an open browser.
+2. Right-click and select "Inspect" to open the developer tools.
+3. Reduce to 320px and set to responsive.
+5. To adjust the responsive window's minimum and maximum width, click and drag it back and forth.
+
+**Anticipated:**
+
+No graphics are stretched, and the website works well on all screen widths.
+There isn't a horizontal scroll.
+Nothing overlaps.
+
+**Actual:**
+
+The website behaved as expected apart from the following issues:
+•	The footer did not stretch content across the full width and became unaligned on devices 465px and under.
+•	The cards in the sports section on screens above 1400px become unaligned due to the images increasing in size.
+•	The booking form entries become unaligned on screens 1400px and above
+•	The booking button on the navbar becomes unaligned on tablets.
+
+This was tested manually on the following devices:
+* Iphone 12
+* LG Thinkpad laptop.
+* Devtools various phones: Iphone SE, Iphone XR, Iphone 12 pro, Iphone 14 pro max, pixel 7, Samsung galaxy s8+, Samsung galaxy S20 ultra.
+
+### Performance, Accessibility & best practices Issues & Fixes
+Manual tests were performed to identify problematic issues, they are as follows:
+
+#### Issue #1: Form submission
+- **Problem**: The form would submit without required entries being entered.
+- **Fix**: The button to submit the form was incorrect, changed to type=submit.
+
+#### Issue #2: Navbar not accessible on mobile devices.
+- **Problem**: Scrolling down from the navbar on tablets and mobiles, created a bad user experience.
+- **Fix**: The following CSS was applied 'position: fixed' to ensure that the navbar stays at the top of the viewport and is much more easily accessed.
+
+#### Problem #3: Large Images with png file type Affecting Loading Time: 
+-**Problem**: Image files containing too much data were taking longer to load the webpage and driving down performance.
+-**Fix**: I used squoosh to compress all image files from "png" to "webp.". Dramatically imrpoving performance from 67-82.
+
+#### Issue #4: 
+- **Problem**: Footer is not spanning the full width on mobile devices causing the map to look unaligned.
+- **Fix**: 
+
+#### Issue #5: 
+- **Problem**: alignment of form labels and input fields on large screen sizes (1400px and above) in booking.html and card images causing alignment issues on same screen sizes.
+- **Fix**:
+- 2 media queries were introduces on screens above 1400px. They are: targeting the image size in the cards within the sports section and targeting padding and margins in form-label class within the booking ID.
+ 
+#### Issue #6: 
+- **Problem**: Accessibility issues with the text in the footer.
+- **Fix**: Change the color to ensure accessibility whilst also remaining consistent with brand colouring.
+- 
+#### Issue #7: 
+- **Problem**: Alignment of 'book now' button in the navbar becoming unaligned on tablet. Form booking button also needs resizing to fit content on all device sizes.
+- **Fix**:
+
+#### Issue #8: Slow Font Loading accross all pages.
+**Problem**:Performance was being slowed down by imported Google fonts.
+**Fix**: Preloaded fonts were added to the head using `<link rel="preload">` and `<link rel="preconnect"…>`. This will guarantee that the preferred font styles are loaded first, improving user experience and speeding up page loads.
+
+  
+#### Issue #9: 
+- **Problem**: Large contentful plains slowing down performance.
+- **Fix**: 
+
+#### Issue #10: 
+- **Problem**: Unused CSS or javascript slowing down performance.
+- **Fix**:
+
+#### Issue #11:
+-**Problem**: Gallery images not adhering to correct height and width ratios.
+-**Fix**:
+
+
+### Lighthouse Testing Before Fixes
+
+#### Home (index.html)
+![Home](docs/read-me-images/home-test1.png)
+
+#### Booking (booking.html)
+![Home](docs/read-me-images/booking-test1.png)
+
+#### gallery (gallery.html)
+![Home](docs/read-me-images/gallery-test1.png)
+
+#### Success (success.html)
+![Home](docs/read-me-images/success-test1.png)
+
+
