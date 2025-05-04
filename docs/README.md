@@ -335,13 +335,12 @@ Manual tests were performed to identify problematic issues, they are as follows:
 
 #### Issue #5: Alignment issues on large screens
 - **Problem**: alignment of form labels and input fields on large screen sizes (1400px and above) in booking.html and card images causing alignment issues on same screen sizes.
-- **Fix**:
-- 2 media queries were introduces on screens above 1400px. They are: targeting the image size in the cards within the sports section and targeting padding and margins in form-label class within the booking ID.
+- **Fix**: 2 media queries were introduces on screens above 1400px. They are: targeting the image size in the cards within the sports section and targeting padding and margins in form-label class within the booking ID.
  
 #### Issue #6: Footer wording not meeting required contrast ratios.
 - **Problem**: Accessibility issues with the text in the footer.
 - **Fix**: Change the color to ensure accessibility whilst also remaining consistent with brand colouring, prioritising accessibility over initial colour design.
-- 
+  
 #### Issue #7: When navigating to sections with ID's header not visible.
 - **Problem**: Alignment of headers when navbar links are used means that you cannot see the heading due to the fixed navbar
 - **Fix**: padding top added to h1 elements and this solved the issue.
@@ -371,33 +370,33 @@ Manual tests were performed to identify problematic issues, they are as follows:
 ### Lighthouse Testing Before Fixes
 
 #### Home (index.html)
-![Home](docs/read-me-images/home-test1.png)
+![Home](docs/readme_images/home-test1.png)
 
 #### Booking (booking.html)
-![Home](docs/read-me-images/booking-test1.png)
+![Home](docs/readme_images/booking-test1.png)
 
 #### gallery (gallery.html)
-![Home](docs/read-me-images/gallery-test1.png)
+![Home](docs/readme_images/gallery-test1.png)
 No screenshots taken before images were changed from png to webp and therefore, performance increase for change not logged with an image. 
 
 #### Success (success.html)
-![Home](docs/read-me-images/success-test1.png)
+![Home](docs/readme_images/success-test1.png)
 
 
 ### Lighthouse Testing After Fixes
 
 #### Home (index.html)
-![Home](docs/read-me-images/home-test2.png)
+![Home](docs/readme_images/home-test2.png)
 
 #### Booking (booking.html)
-![Home](docs/read-me-images/booking-test2.png)
+![Home](docs/readme_images/booking-test2.png)
 
 #### gallery (gallery.html)
-![Home](docs/read-me-images/gallery-test2.png)
+![Home](docs/readme_images/gallery-test2.png)
 No screenshots taken before images were changed from png to webp and therefore, performance increase for change not logged with an image. 
 
 #### Success (success.html)
-![Home](docs/read-me-images/success-test2.png)
+![Home](docs/readme_images/success-test2.png)
 
 ### Functionality testing
 
@@ -551,16 +550,16 @@ Links work as expected and user is directed to an app to carry out intended resu
 ### HTML validation - Pre fixes 
 
 #### Home
-![Home](docs/read-me-images/home-html-val1.png)
+![Home](docs/readme_images/home-html-val1.png)
 
 #### Gallery
-![Home](docs/read-me-images/gallery-html-val1.png)
+![Home](docs/readme_images/gallery-html-val1.png)
 
 #### Booking inquiry form
-![Home](docs/read-me-images/booking-html-val1.png)
+![Home](docs/readme_images/booking-html-val1.png)
 
 #### Success page
-![Home](docs/read-me-images/success-html-val1.png)
+![Home](docs/readme_images/success-html-val1.png)
 
 
 Passed all checks and therefore, no fixes needed. 
@@ -568,22 +567,22 @@ Passed all checks and therefore, no fixes needed.
 ### HTML validation - Post fixes
 
 #### Home
-![Home](docs/read-me-images/home-html-val2.png)
+![Home](docs/readme_images/home-html-val2.png)
 
 #### Gallery
-![Home](docs/read-me-images/gallery-html-val2.png)
+![Home](docs/readme_images/gallery-html-val2.png)
 
 #### Booking inquiry form
-![Home](docs/read-me-images/booking-html-val2.png)
+![Home](docs/readme_images/booking-html-val2.png)
 
 
 ### CSS validation
 
 Pre fix CSS validation: The following errors were found.
-![Home](docs/read-me-images/css-val1.png)
+![Home](docs/readme_images/css-val1.png)
 
 Post fix CSS validation: No errors were found.
-![Home](docs/read-me-images/css-val2.png)
+![Home](docs/readme_images/css-val2.png)
 
 ### Unfixed Bugs
 Issue #1: Form to send email to target email address and direct to success.html for comfirmation after form is submitted.
@@ -612,6 +611,10 @@ The portfolio website deployed using GitHub Pages
   
 * Javascript - Javascript should also be commended because it was utilized to adjust to Bootstrap 5.3
 
+* Git - Git pages was used for project planning, hosting repositories.
+
+* VS-code - Virtal studio code (VS-code) was used for all coding.
+  
 * Squoosh - Squoosh was used to compress files, changing them from PNG to WebP, which shortened the time the website took to load.
 
 * Code Institute - Resources from the Code Institute, such as my tutor Mo Shami, who gave advice on how approach the project.
