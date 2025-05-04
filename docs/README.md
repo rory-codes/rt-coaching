@@ -170,6 +170,13 @@ As a child interested in coaching, I want to see reviews or testimonials from ot
 
 ***Accessibility:** The website follows WCAG 2.1 guidelines to ensure all users can access content easily and without obstacle.
 
+**Further considerations**
+1. Strategy – Set user needs and goals to ensure the site serves RT coaching and its customers/clients.
+2. Scope – Contain features such as the sports, services, booking and gallery sections.
+3. Structure – Design a logical easy-to-use structure that produces easy navigation and ease of access for its users.
+4. Skeleton – Create wireframes to map out the layout the site and give RT Coaching an idea of what to expect when complete.
+5. Surface – Develop cohesive bespoke website with responsive deisgn and RT coaching colours and branding.
+   
 ### User Interface (UI)
 ***Branding:** A consistent color palette and typography has been used throughout the site. It is the same font and colour palette used in the logo for RT coaching representing alignment with RT Coaching’s identity and brand.
 
@@ -232,7 +239,7 @@ As a child interested in coaching, I want to see reviews or testimonials from ot
 
 (With 2 sections, a header, a footer and naviagation)
 
-![Home](docs/wireframes/mobile-home.bmpr) 
+![Home](wireframes/mobile-home.bmpr) 
 
 ![Home](docs/wireframes/tablet-home.bmpr)
 
@@ -328,13 +335,12 @@ Manual tests were performed to identify problematic issues, they are as follows:
 
 #### Issue #5: Alignment issues on large screens
 - **Problem**: alignment of form labels and input fields on large screen sizes (1400px and above) in booking.html and card images causing alignment issues on same screen sizes.
-- **Fix**:
-- 2 media queries were introduces on screens above 1400px. They are: targeting the image size in the cards within the sports section and targeting padding and margins in form-label class within the booking ID.
+- **Fix**: 2 media queries were introduces on screens above 1400px. They are: targeting the image size in the cards within the sports section and targeting padding and margins in form-label class within the booking ID.
  
 #### Issue #6: Footer wording not meeting required contrast ratios.
 - **Problem**: Accessibility issues with the text in the footer.
 - **Fix**: Change the color to ensure accessibility whilst also remaining consistent with brand colouring, prioritising accessibility over initial colour design.
-- 
+  
 #### Issue #7: When navigating to sections with ID's header not visible.
 - **Problem**: Alignment of headers when navbar links are used means that you cannot see the heading due to the fixed navbar
 - **Fix**: padding top added to h1 elements and this solved the issue.
@@ -364,33 +370,33 @@ Manual tests were performed to identify problematic issues, they are as follows:
 ### Lighthouse Testing Before Fixes
 
 #### Home (index.html)
-![Home](docs/read-me-images/home-test1.png)
+![Home](docs/readme_images/home-test1.png)
 
 #### Booking (booking.html)
-![Home](docs/read-me-images/booking-test1.png)
+![Home](docs/readme_images/booking-test1.png)
 
 #### gallery (gallery.html)
-![Home](docs/read-me-images/gallery-test1.png)
+![Home](docs/readme_images/gallery-test1.png)
 No screenshots taken before images were changed from png to webp and therefore, performance increase for change not logged with an image. 
 
 #### Success (success.html)
-![Home](docs/read-me-images/success-test1.png)
+![Home](docs/readme_images/success-test1.png)
 
 
 ### Lighthouse Testing After Fixes
 
 #### Home (index.html)
-![Home](docs/read-me-images/home-test2.png)
+![Home](docs/readme_images/home-test2.png)
 
 #### Booking (booking.html)
-![Home](docs/read-me-images/booking-test2.png)
+![Home](docs/readme_images/booking-test2.png)
 
 #### gallery (gallery.html)
-![Home](docs/read-me-images/gallery-test2.png)
+![Home](docs/readme_images/gallery-test2.png)
 No screenshots taken before images were changed from png to webp and therefore, performance increase for change not logged with an image. 
 
 #### Success (success.html)
-![Home](docs/read-me-images/success-test2.png)
+![Home](docs/readme_images/success-test2.png)
 
 ### Functionality testing
 
@@ -490,3 +496,160 @@ Actual:
 
 The user is prompted to enter an email address with the correct format. Once that is done, form submits as expected.
 
+**Icons (link) for Social Media in the Footer**
+
+Expected:
+ Social media icon testing was done to ensure that links open in a new tab, and direct to correct website, and have a hover effect to let users know they are links.
+ 
+ Actual:
+ As anticipated, each item launched a new tab when clicked, and there was a color change when hovered over.  Every link points to the anticipated website.
+
+
+**Contact Details in the Footer**
+
+ To ensure that users could contact the site directly, testing was done on the contact section.  Email to launch an email application on any device, and phone number to initiate a call action from mobile devices.
+
+**Phone number:**
+
+ * Go to the Home Page of the Portfolio.
+ * Scroll to the number in the footer and click the number listed (07854965865).
+ * Repeat testing for all pages.
+
+ Expected:
+ On mobile devices when the number is clicked, a call is prompted to the number above.
+
+ Actual:
+ 
+ Mobile prompts a call to the number and behaved exactly as expected but this is not the case on other devices. Link not showing but still working on mobile.
+
+Fix:
+Added <a> link to number with href="tel:..." to create link that users can use to make a call.
+
+Actual after fix:
+Links work as expected and user is directed to a mechanism to carry out intended result (make a call).
+
+**Emaill address:**
+* Stay on home page of portfolio.
+* Scroll to the number in the footer and click the email address (enquiries@rt-coaching.co.uk).
+* Repeat testing for all pages.
+    
+Expected:
+On all devices, the user should be directed to their email app to send an email to the email address listed.
+
+Actual:
+The link doesn't appear as a link and therefore does not behave as expected and acts as wording on the screen and does nothing when clicked.
+
+Fix:
+Added <a> link with href="mailto:..." to create link that users can use to send email.
+
+Actual after fix:
+Links work as expected and user is directed to an app to carry out intended result (send an email).
+
+## Validator Testing
+
+### HTML validation - Pre fixes 
+
+#### Home
+![Home](docs/readme_images/home-html-val1.png)
+
+#### Gallery
+![Home](docs/readme_images/gallery-html-val1.png)
+
+#### Booking inquiry form
+![Home](docs/readme_images/booking-html-val1.png)
+
+#### Success page
+![Home](docs/readme_images/success-html-val1.png)
+
+
+Passed all checks and therefore, no fixes needed. 
+
+### HTML validation - Post fixes
+
+#### Home
+![Home](docs/readme_images/home-html-val2.png)
+
+#### Gallery
+![Home](docs/readme_images/gallery-html-val2.png)
+
+#### Booking inquiry form
+![Home](docs/readme_images/booking-html-val2.png)
+
+
+### CSS validation
+
+Pre fix CSS validation: The following errors were found.
+![Home](docs/readme_images/css-val1.png)
+
+Post fix CSS validation: No errors were found.
+![Home](docs/readme_images/css-val2.png)
+
+### Unfixed Bugs
+Issue #1: Form to send email to target email address and direct to success.html for comfirmation after form is submitted.
+Fix: To options were implemented temporarily, they were:
+* Add a mailto: enquiries..... but this created a bad UX and opened the email in a seperate application. This also impacted the websites ability to navigate to success.html after submission.
+* Use a seperate host site such as 'formspree'. However, this created loading times and would go to an external page after submission. This was not satisfactory and therefore, was removed.
+Future fix: This will be left for a future update. Whereby javascript will be used to ensure that the website meets the following criteria: An email address is sent without opening a seperate application, it does not significantly slow down performance and the user is directed to successs.html after submission.
+
+Issue #2: Gallery images are not the correct aspect ratio. I have improved this element but this is something that could be improved to speed up performance and best practices.
+Fix: Upload images again with the desired size predetermined. Also, aspect ratio in line with original file. All images changed to webp once this is acceptable.
+
+
+## Deployment
+### Deployment to Github Pages
+The portfolio website deployed using GitHub Pages
+
+**Steps to Deploy site:**
+* Sync files to a GitHub repository from VS-Code.
+* Go to the Settings tab in the repository.
+* Scroll down to the Pages section.
+* Under Branch, select main
+* Click Save. Live link can be found ![here] (https://rory-codes.github.io/rt-coaching/)
+
+## Credits
+* Bootstrap - This website's code was utilised to construct the navbar and cards' structural foundation according to my pertinent preferences and guarantee that the site's styling is consistent throughout. Additionally, bootstrap was helpful in giving Javascript code for a responsive and functional structure, such as the navbar that collapses when a mobile view button is clicked.
+  
+* Javascript - Javascript should also be commended because it was utilized to adjust to Bootstrap 5.3
+
+* Git - Git pages was used for project planning, hosting repositories.
+
+* VS-code - Virtal studio code (VS-code) was used for all coding.
+  
+* Squoosh - Squoosh was used to compress files, changing them from PNG to WebP, which shortened the time the website took to load.
+
+* Code Institute - Resources from the Code Institute, such as my tutor Mo Shami, who gave advice on how approach the project.
+ The codes utilized in this project were first learned via walkthrough projects such as love-running and boardwalk-games.
+ Code institute also helped me learn about important principles such as: HTML, CSS and bootstrap. As well as many other areas such as; how to link to git hub and approach work in logical, well thought-out manor.
+
+*Wendy Purdy - Wendy has been really helpful with her commitment and help towards my development. We have weekly meetings and/or 1-1's and she has been a great line of support. Please see below for an example of how she helped me repair my form (which wasn't submitted as intended)
+ ![Home](docs/read-me-images/wendy.png)
+* W3schools - Used to refer back to previously learned principles, such as pseudo-classes and form elements. This was really helpful when building the site.
+![Home](docs/read-me-images/w3.png)
+* Slack - To discuss code, resolve hosting and connectivity problems, and get input on written code, Slack was utilized.
+
+* Stackoverflow - This was used various times throughout the process to quickly look up something and make mental connections. Please see below for example:
+![Home](docs/read-me-images/stackoverflow.png)
+* Google - Google maps are utilized to embed a location and an interactive element in the footer, and Google fonts are used for styling across the website: https://fonts.google.com/.
+ The 'preload' and 'preconnect' scripts used on this website were read, found, and learned by Chrome developers: https://developer.chrome.com/docs/devtools/application/debugging-speculation-rules
+ Chrome DevTools is a lighthouse tool for testing and examining the accessibility and performance of code.
+
+* Favicon.io - This was used to create favicons.
+
+* Google fonts - Used to import fonts.
+
+* Canva.com - Used to create Logo for RT Coaching.
+
+* Font awesome - Used to import icons.
+
+* Balsamic - Used to create wireframes.
+
+* colormind.io - Used to create palette for RT coaching and subsequently used throughout site.
+![Home](docs/read-me-images/palette.png)
+
+## Media 
+* Pexels - Stock images for the gallery.
+
+* Pixaby - Stock images for the gallery.
+
+
+Thank you! This is my first project via the code institute - Full stack web development (level 5) diploma. I have learnt a lot through this journey and I am proud of the site I have deployed, despite obvious limitations. I am excited to continue this journey and learn about different technologies and languages to guide my coding journey.
