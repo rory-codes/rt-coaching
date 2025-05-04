@@ -170,6 +170,13 @@ As a child interested in coaching, I want to see reviews or testimonials from ot
 
 ***Accessibility:** The website follows WCAG 2.1 guidelines to ensure all users can access content easily and without obstacle.
 
+**Further considerations**
+1. Strategy – Set user needs and goals to ensure the site serves RT coaching and its customers/clients.
+2. Scope – Contain features such as the sports, services, booking and gallery sections.
+3. Structure – Design a logical easy-to-use structure that produces easy navigation and ease of access for its users.
+4. Skeleton – Create wireframes to map out the layout the site and give RT Coaching an idea of what to expect when complete.
+5. Surface – Develop cohesive bespoke website with responsive deisgn and RT coaching colours and branding.
+   
 ### User Interface (UI)
 ***Branding:** A consistent color palette and typography has been used throughout the site. It is the same font and colour palette used in the logo for RT coaching representing alignment with RT Coaching’s identity and brand.
 
@@ -490,3 +497,137 @@ Actual:
 
 The user is prompted to enter an email address with the correct format. Once that is done, form submits as expected.
 
+**Icons (link) for Social Media in the Footer**
+
+Expected:
+ Social media icon testing was done to ensure that links open in a new tab, and direct to correct website, and have a hover effect to let users know they are links.
+ 
+ Actual:
+ As anticipated, each item launched a new tab when clicked, and there was a color change when hovered over.  Every link points to the anticipated website.
+
+
+**Contact Details in the Footer**
+
+ To ensure that users could contact the site directly, testing was done on the contact section.  Email to launch an email application on any device, and phone number to initiate a call action from mobile devices.
+
+**Phone number:**
+
+ * Go to the Home Page of the Portfolio.
+ * Scroll to the number in the footer and click the number listed (07854965865).
+ * Repeat testing for all pages.
+
+ Expected:
+ On mobile devices when the number is clicked, a call is prompted to the number above.
+
+ Actual:
+ 
+ Mobile prompts a call to the number and behaved exactly as expected but this is not the case on other devices. Link not showing but still working on mobile.
+
+Fix:
+Added <a> link to number with href="tel:..." to create link that users can use to make a call.
+
+Actual after fix:
+Links work as expected and user is directed to a mechanism to carry out intended result (make a call).
+
+**Emaill address:**
+* Stay on home page of portfolio.
+* Scroll to the number in the footer and click the email address (enquiries@rt-coaching.co.uk).
+* Repeat testing for all pages.
+    
+Expected:
+On all devices, the user should be directed to their email app to send an email to the email address listed.
+
+Actual:
+The link doesn't appear as a link and therefore does not behave as expected and acts as wording on the screen and does nothing when clicked.
+
+Fix:
+Added <a> link with href="mailto:..." to create link that users can use to send email.
+
+Actual after fix:
+Links work as expected and user is directed to an app to carry out intended result (send an email).
+
+## Validator Testing
+
+### HTML validation - Pre fixes 
+
+#### Home
+
+
+#### Gallery
+
+
+#### Booking inquiry form
+
+
+#### Success page
+
+
+### HTML validation - Post fixes
+
+
+#### Home
+
+
+#### Gallery
+
+
+#### Booking inquiry form
+
+
+#### Success page
+
+
+### CSS validation
+
+Pre fix CSS validation: The following errors were found.
+
+Post fix CSS validation: No errors were found.
+
+### Unfixed Bugs
+Issue #1: Form to send email to target email address and direct to success.html for comfirmation after form is submitted.
+Fix: To options were implemented temporarily, they were:
+* Add a mailto: enquiries..... but this created a bad UX and opened the email in a seperate application. This also impacted the websites ability to navigate to success.html after submission.
+* Use a seperate host site such as 'formspree'. However, this created loading times and would go to an external page after submission. This was not satisfactory and therefore, was removed.
+Future fix: This will be left for a future update. Whereby javascript will be used to ensure that the website meets the following criteria: An email address is sent without opening a seperate application, it does not significantly slow down performance and the user is directed to successs.html after submission.
+
+Issue #2: Gallery images are not the correct aspect ratio. I have improved this element but this is something that could be improved to speed up performance and best practices.
+Fix: Upload images again with the desired size predetermined. Also, aspect ratio in line with original file. All images changed to webp once this is acceptable.
+
+
+## Deployment
+### Deployment to Github Pages
+The portfolio website deployed using GitHub Pages
+
+**Steps to Deploy site:**
+* Sync files to a GitHub repository from VS-Code.
+* Go to the Settings tab in the repository.
+* Scroll down to the Pages section.
+* Under Branch, select main
+* Click Save. Live link can be found [here] (https://rory-codes.github.io/rt-coaching/)
+
+## Credits
+* Bootstrap - This website's code was utilized to construct the navbar and cards' structural foundation according to my pertinent preferences and guarantee that the site's styling is consistent throughout. Additionally, bootstrap was helpful in giving Javascript code for a responsive and functional structure, such as the navbar that collapses when a mobile view button is clicked.
+  
+* Javascript - Javascript should also be commended because it was utilized to adjust to Bootstrap 5.3
+
+* Squoosh - Squoosh was used to compress files, changing them from PNG to WebP, which shortened the time the website took to load.
+
+* Code Institute - Resources from the Code Institute, such as my tutor Mo Shami, who gave advice on how approach the project.
+ The codes utilized in this project were first learned via walkthrough projects such as love-running and boardwalk-games.
+ Code institute also helped me learn about important principles such as: HTML, CSS and bootstrap. As well as many other areas such as; how to link to git hub and approach work in logical, well thought-out manor.
+
+*Wendy Purdy - Wendy has been really helpful with her commitment and help towards my development. We have weekly meetings and/or 1-1's and she has been a great line of support. Please see below for an example of how she helped me repair my form (which wasn't submitted as intended)
+ 
+* W3schools - Used to refer back to previously learned principles, such as pseudo-classes and form elements. This was really helpful when building the site.
+
+* Slack - To discuss code, resolve hosting and connectivity problems, and get input on written code, Slack was utilized.
+
+* Stackoverflow - This was used various times throughout the process to quickly look up something and make mental connections. Please see below for example:
+
+* Google - Google maps are utilized to embed a location and an interactive element in the footer, and Google fonts are used for styling across the website: https://fonts.google.com/.
+ The 'preload' and 'preconnect' scripts used on this website were read, found, and learned by Chrome developers: https://developer.chrome.com/docs/devtools/application/debugging-speculation-rules
+ Chrome DevTools is a lighthouse tool for testing and examining the accessibility and performance of code.
+
+## Media 
+* Pexels - Stock images for the gallery.
+* Pixaby - Stock images for the gallery.
