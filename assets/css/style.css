@@ -355,12 +355,6 @@ h5 {
 
 
 /*Media queries*/
-
-/*Extra small devices (576px and below)*/
-@media screen and (max-width: 576px)  {
-    #map { padding-right: 40px;
-    }
-}
 /*Small devices (laptops, 576px and up) */
 @media screen and (min-width: 576px)  {
     body { margin: 0;
