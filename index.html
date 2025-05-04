@@ -25,9 +25,13 @@ integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEw
 <!-- Preload hero image -->
 <link rel="preload" href="assets/images/hero-image.webp" as="image" type="image/webp">
 
-   <!--Preload & connect for google fonts to increase performance load time-->
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!--Preload & connect for google fonts to increase performance load time-->
+   
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<!--Preload for audio file-->
+<link rel="preconnect" src="assets/media/music_clip.mp3">
 
 </head>
 
@@ -87,7 +91,6 @@ What are you waiting for.......   <a class="nav-link booking-button-large ms-aut
           src="assets/media/music_clip.mp3"
           controls
           muted
-          preload="auto"
           loop
           class="col-12 col-md-6 mx-auto"
           
