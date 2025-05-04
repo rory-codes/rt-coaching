@@ -229,14 +229,19 @@ h5 {
 .socials {
     background-color: var(--lowlight-color);
     color: var(--secondary-color);   
-    margin-left: 1rem;
+    margin-left: 1.5rem; /*margin increase to give social media icons breathing space*/
+}
+
+.socials:hover {
+    background-color: var(--primary-color); /*Added to improve reactivity of links to let user know they are links*/
+    color: var(--secondary-color);  
 }
 
 /*Map on footer*/
 #map                {
     border:  2px solid var(--secondary-color);
-    box-shadow: var(--primary-color); /*Box shadow added, not consistent with other shadows from bootstrap*/
-    padding-right: 25px; /*Added to move map away from the edge of the column and align with footer*/
+    box-shadow: var(--primary-color); /*Box shadow added, not consistent with other shadows from bootstrap due to colour being targeted*/
+    padding-right: 10; /*reduced the padding to improve layout*/
 }
 
 /*Gallery */
