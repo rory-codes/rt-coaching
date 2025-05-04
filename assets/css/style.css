@@ -277,8 +277,8 @@ h5 {
 #booking .logo-booking { 
     width: 150px;
     height: 150px;
-    padding-bottom: 1.7rem; /*adjusted the logo to give it space, adjust opacicity, size and position of logo*/
-    padding-left: 1rem;   
+    margin-bottom: 1.7rem; /*adjusted the logo to give it space, adjust opacicity, size and position of logo*/
+    margin-left: 1rem;   
     opacity: 87%;
 }
 
@@ -355,8 +355,12 @@ h5 {
 
 
 /*Media queries*/
-    
 
+/*Extra small devices (576px and below)*/
+@media screen and (max-width: 576px)  {
+    #map { padding-right: 40px;
+    }
+}
 /*Small devices (laptops, 576px and up) */
 @media screen and (min-width: 576px)  {
     body { margin: 0;
@@ -442,10 +446,11 @@ h5 {
     padding: 10px;
 }
 
-.gallery-image:hover { /*Added to make images more interactive, images will enlarge when mouse hovers*/
-   /* width: 50%;
-    height: 50%;*/
-}
+/*Added to make images more interactive, images will enlarge when mouse hovers*/ /*
+.gallery-image:hover { 
+    width: 50%;
+    height: 50%;
+}*/
 .form-label {
     padding-right: 0; /*Give form label space either side*/
     padding-left: 0;
