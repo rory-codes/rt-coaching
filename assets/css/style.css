@@ -413,9 +413,9 @@ h5 {
         max-height: 10vh;
     }
     .gallery-image { 
-        max-width: 300px;
-        max-height: 300px;
-}
+        max-width: 340px;
+        max-height: 340px;
+}   
 .form-label {
     padding-right: 0; /*Give form label space either side*/
     padding-left: 0;
