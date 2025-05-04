@@ -239,37 +239,37 @@ As a child interested in coaching, I want to see reviews or testimonials from ot
 
 (With 2 sections, a header, a footer and naviagation)
 
-![Home](wireframes/mobile-home.bmpr) 
+![Home](wireframes/mobile-home.png) 
 
-![Home](docs/wireframes/tablet-home.bmpr)
+![Home](docs/wireframes/tablet-home.png)
 
-![Home](docs/wireframes/laptop-home.bmpr)
+![Home](docs/wireframes/laptop-home.png)
  <br>
 #### Gallery
 
-![Gallery](docs/wireframes/mobile-gallery.bmpr) 
+![Gallery](docs/wireframes/mobile-gallery.png) 
 
-![Gallery](docs/wireframes/tablet-gallery.bmpr) 
+![Gallery](docs/wireframes/tablet-gallery.png) 
 
-![Gallery](docs/wireframes/laptop-gallery.bmpr) 
+![Gallery](docs/wireframes/laptop-gallery.png) 
 
 <br>
 
 #### Booking inquiry form
 
-![Booking inquiry form](docs/wireframes/mobile-booking.bmpr) 
+![Booking inquiry form](docs/wireframes/mobile-booking.png) 
 
-![Booking inquiry form](docs/wireframes/tablet-booking.bmpr) 
+![Booking inquiry form](docs/wireframes/tablet-booking.png) 
 
-![Booking inquiry form](docs/wireframes/laptop-booking.bmpr) 
+![Booking inquiry form](docs/wireframes/laptop-booking.png) 
 
 #### Success page
 
-![Success](docs/wireframes/mobile-success.bmpr)
+![Success](docs/wireframes/mobile-success.png)
 
-![Success](docs/wireframes/tablet-success.bmpr)
+![Success](docs/wireframes/tablet-success.png)
 
-![Success](docs/wireframes/laptop-success.bmpr)
+![Success](docs/wireframes/laptop-success.png)
 <br>
 
 ## Testing
@@ -622,13 +622,13 @@ The portfolio website deployed using GitHub Pages
  Code institute also helped me learn about important principles such as: HTML, CSS and bootstrap. As well as many other areas such as; how to link to git hub and approach work in logical, well thought-out manor.
 
 *Wendy Purdy - Wendy has been really helpful with her commitment and help towards my development. We have weekly meetings and/or 1-1's and she has been a great line of support. Please see below for an example of how she helped me repair my form (which wasn't submitted as intended)
- ![Home](docs/read-me-images/wendy.png)
+ ![Home](docs/readme_images/wendy.png)
 * W3schools - Used to refer back to previously learned principles, such as pseudo-classes and form elements. This was really helpful when building the site.
-![Home](docs/read-me-images/w3.png)
+![Home](docs/readme_images/w3.png)
 * Slack - To discuss code, resolve hosting and connectivity problems, and get input on written code, Slack was utilized.
 
 * Stackoverflow - This was used various times throughout the process to quickly look up something and make mental connections. Please see below for example:
-![Home](docs/read-me-images/stackoverflow.png)
+![Home](docs/readme_images/stackoverflow.png)
 * Google - Google maps are utilized to embed a location and an interactive element in the footer, and Google fonts are used for styling across the website: https://fonts.google.com/.
  The 'preload' and 'preconnect' scripts used on this website were read, found, and learned by Chrome developers: https://developer.chrome.com/docs/devtools/application/debugging-speculation-rules
  Chrome DevTools is a lighthouse tool for testing and examining the accessibility and performance of code.
@@ -644,7 +644,7 @@ The portfolio website deployed using GitHub Pages
 * Balsamic - Used to create wireframes.
 
 * colormind.io - Used to create palette for RT coaching and subsequently used throughout site.
-![Home](docs/read-me-images/palette.png)
+![Home](docs/readme_images/palette.png)
 
 ## Media 
 * Pexels - Stock images for the gallery.
