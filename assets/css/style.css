@@ -25,12 +25,13 @@ h1,
 h2,
 h3,
 h5 {
-    font-family: var(--secondary-color);
-    margin-bottom: 2rem;
-
-    
+    font-family: var(--primary-font);
+    margin-bottom: 2rem;  
 }
 
+p {
+    font-family: var(--secondary-font);
+}
 h1,
 h2 {
     padding-left: 0.65rem; /*Added to give space on headings*/
@@ -245,8 +246,7 @@ h5 {
 /*Map on footer*/
 #map                {
     border:  2px solid var(--secondary-color);
-    box-shadow: var(--primary-color); /*Box shadow added, not consistent with other shadows from bootstrap due to colour being targeted*/
-    padding-right: 10; /*reduced the padding to improve layout*/
+     /*reduced the padding to improve layout*/
 }
 
 /*Gallery */
@@ -261,7 +261,6 @@ h5 {
    margin: 0.7rem;
    border-radius: 1rem;
     border:  2px solid var(--secondary-color);
-    box-shadow: var(--primary-color); /*Box shadow added, not consistent with other shadows using bootstrap due to colour being targetd*/
 }
 
 #gallery h3, p {
