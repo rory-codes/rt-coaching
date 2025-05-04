@@ -259,6 +259,11 @@ h5 {
     box-shadow: var(--primary-color); /*Box shadow added, not consistent with other shadows using bootstrap due to colour being targetd*/
 }
 
+#gallery h3, p {
+    color: var(--secondary-color);
+    padding-top: 2rem;
+}
+
 /*Booking form*/
 #booking {
     color: var(--lowlight-color);
