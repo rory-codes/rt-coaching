@@ -124,7 +124,7 @@ header {
     margin-bottom: 2rem;
 }
 
-#sports h1 {
+#sports h2 {
     color: var(--lowlight-color);
     background-color: rgba(158, 191, 209, 0.78); /*Added to give background colour to heading and make it stand out. Colour from the colour scheme used but rgba selected to change opacity*/
     border-radius: 4px;
@@ -141,6 +141,11 @@ header {
 #sports .card li {
     background-color: var(--highlight-color);
 }
+
+#sports .card p {
+    color: var(--lowlight-color); /*Added to change font back to original color*/
+}
+
 
 #sports .card img {
     /*Added to a border to the images on the card and make them stand out slightly and appear more succinct*/
@@ -174,7 +179,7 @@ header {
 }
 
 #services
-h1 {
+h2 {
     color: var(--lowlight-color);
     background-color: rgba(158, 191, 209, 0.78); /*Added to give background colour to heading and make it stand out. Colour from the colour scheme used but rgba selected to change opacity*/
     border-radius: 4px;
