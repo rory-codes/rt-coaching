@@ -45,18 +45,17 @@ Testimonials and achievements from athletes who have trained under RT Coaching.
 #### Site wide 
 
 **navigation** 
+![Home](docs/readme_images/nav1.png)
+![Home](docs/readme_images/nav2.png)
+![Home](docs/readme_images/nav3.png)
 * The website works well on a range of screen sizes and devices.
 * Site layout and navigation are intuitive, providing easy access to different sections and pages.
 * I used a mobile-first approach, meaning we ensure that it works on mobiles and making adjustments accordingly for larger screens.
 * This should create understanding for users to navigate the site due to adherence with common industry standards.
 * The navigation also includes a 'call to action' button to provide a direct link to the booking enquiry form. This provides easy access for users should they wish to send a booking enquiry at any point during site navigation.
 
-**Header**
-* The header is the first content site users will see and therefore, I wanted to use a combination of brand colours, brand logo and a hero image to grab user attention and set the tone for the website, whilst also aligning with the brand. 
-* The header also includes a heading, subheading and paragraph to introduce the customer to the brand and services provided.
-* There is a 'call to action' button included to direct users to the booking enquiry form. If a user already knows they want to book then this gives them easy access to the booking enquiry form.
-
 **Footer**
+![Home](docs/readme_images/footer.png)
 * The footer section contains links to social media platforms allowing site users to connect and view content across different platforms.
 * The footer contains contact information so that users can easily access this as they navigate the site.
 * The footer also contains a map so that users can easily identify where RT Coaching is predominantly based.
@@ -74,12 +73,15 @@ Testimonials and achievements from athletes who have trained under RT Coaching.
 * There are two sections below the header, each with a clear purpose. They are as follows:
 
 **Header section**
+![Home](docs/readme_images/header.png)
 * The header section includes a 'hero' image to introduce the user to the type of business.
 * A brand logo with opacity targeted to produce a nice visual effect and include the brand logo.
 * Background color has been used, using brand colours to highlight information over the hero image and provide consistency with the logo.
 * The header includes headings, paragraphs and and a 'call to action' button to direct users to the booking enquiry form.
 
 **Sports section**
+![Home](docs/readme_images/sports1.png)
+![Home](docs/readme_images/sports2.png)
 * The sports section introduces users to the current sports on offer. Including: Football, Tag-rugby & Multi-sports.
 * The sports section uses cards from bootstrap, which are edited using CSS and bootstrap classes to achieve a customised result. 
 * Cards help organise information and draw the users attention to relavant information. Making the section easy to navigate and access relevant information.
@@ -88,6 +90,7 @@ Testimonials and achievements from athletes who have trained under RT Coaching.
 (Sports section screen show)
 
 **Services section**
+![Home](docs/readme_images/services.png)
 * The services section introduces users to the 3 types of services available for RT coaching. Which are: Coaching sessions, PPA and one to ones (1-1's).
 * A combination of headings and paragraphs are used to providing relevant information that introduces users breifly to a description of services.
 * CSS styling is used to customise this section. Using brand colours to continue alignment with previous content and client expectations.
@@ -97,6 +100,8 @@ Testimonials and achievements from athletes who have trained under RT Coaching.
 
 #### Other pages
 **Gallery**
+![Home](docs/readme_images/gallery1.png)
+![Home](docs/readme_images/gallery2.png)
 * The gallery uses bootstraps grid system to allign content on different devices and screen sizes.
 * The gallery includes 12 images acquired from various sites including but not limited to pexels. All images are stock images and do not conflict with copyright legislation. This adds value to the website and RT coaching by showcasing images to entice users to book a session and it adds values to users by allowing them to see images that align with the business and types of activities.
 * The images are styled using CSS to provide a border, margin, padding, border radius to align with styling in other areas of the site. All colours used are brand colours, providing further aligning with the brand identity.
@@ -105,6 +110,8 @@ Testimonials and achievements from athletes who have trained under RT Coaching.
  (Link to gallery)
 
 **Booking enquiry form**
+![Home](docs/readme_images/booking1.png)
+![Home](docs/readme_images/booking2.png)
 * The booking enquiry form contains a heading, paragraph and a form.
 * The booking enquiry form contains a logo.
 * The booking enquiry form uses bootstraps grid system to allign content on different devices and screen sizes.
@@ -113,6 +120,7 @@ Testimonials and achievements from athletes who have trained under RT Coaching.
 * CSS styling used to allign with previous content and brand identity.
 
 **Success page**
+![Home](docs/readme_images/success.png)
 * The success page includes a thank you message and directs users to a button leading them back to the home page.
 * The success page includes heading, paragraphs and a home button.
 * The page uses CSS styling to align with previous content and brand identity.
