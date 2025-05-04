@@ -322,20 +322,20 @@ Manual tests were performed to identify problematic issues, they are as follows:
 -**Problem**: Image files containing too much data were taking longer to load the webpage and driving down performance.
 -**Fix**: I used squoosh to compress all image files from "png" to "webp.". Dramatically imrpoving performance from 67-82.
 
-#### Issue #4: 
+#### Issue #4: Footer alignment out of sync on mobile devices
 - **Problem**: Footer is not spanning the full width on mobile devices causing the map to look unaligned.
-- **Fix**: (Still unable to solve the issue)
+- **Fix**: Solved this by changing col-6 to col-12, col-md-6. This means that the map sits below contact information on mobile devices. This moves away from original wireframe design. However, I dont think it impacts UX negatively and solves major alignment issues.
 
-#### Issue #5: 
+#### Issue #5: Alignment issues on large screens
 - **Problem**: alignment of form labels and input fields on large screen sizes (1400px and above) in booking.html and card images causing alignment issues on same screen sizes.
 - **Fix**:
 - 2 media queries were introduces on screens above 1400px. They are: targeting the image size in the cards within the sports section and targeting padding and margins in form-label class within the booking ID.
  
-#### Issue #6: 
+#### Issue #6: Footer wording not meeting required contrast ratios.
 - **Problem**: Accessibility issues with the text in the footer.
-- **Fix**: Change the color to ensure accessibility whilst also remaining consistent with brand colouring.
+- **Fix**: Change the color to ensure accessibility whilst also remaining consistent with brand colouring, prioritising accessibility over initial colour design.
 - 
-#### Issue #7: 
+#### Issue #7: When navigating to sections with ID's header not visible.
 - **Problem**: Alignment of headers when navbar links are used means that you cannot see the heading due to the fixed navbar
 - **Fix**: padding top added to h1 elements and this solved the issue.
 
@@ -344,15 +344,15 @@ Manual tests were performed to identify problematic issues, they are as follows:
 **Fix**: Preloaded fonts were added to the head using `<link rel="preload">` and `<link rel="preconnect"…>`. This will guarantee that the preferred font styles are loaded first, improving UX and speeding up page loads.
 
   
-#### Issue #9: 
+#### Issue #9: Header section causing slow performance due to large contentful plain.
 - **Problem**: Large contentful plains slowing down performance.
 - **Fix**: Preloaded certain content in the home page and gallery to boost performance. link rel=preload" as="image". Also introduced loading="lazy" for items that were not visible straight away to users when they open the  site.
 
-#### Issue #10: 
+#### Issue #10: Unusued code slowing down performance.
 - **Problem**: Unused CSS or javascript slowing down performance.
 - **Fix**: Remove unsed CSS and JS for bootstrap which wasn't used on certain pages.
 
-#### Issue #11:
+#### Issue #11: Issues with best practices due to width and height of gallery images.
 -**Problem**: Gallery images not adhering to correct height and width ratios.
 -**Fix**: Adjusted width and height to max-width and max-height. Previously I was forcing images into a consistent size. However, I believe it works better and looks better with different sized images.
 
@@ -414,4 +414,79 @@ No screenshots taken before images were changed from png to webp and therefore, 
 
 The form on the home page was tested to ensure it functioned as intended when the correct data type was input and required fields were entered/selected.
 
+**Scenario One - Correct Inputs**
+
+Steps to test:
+
+Navigate to Portfolio - Home Page
+Click on 'Book now' link in the navbar.
+User will be redirected to the booking inquiry page and then input the following:
+First Name: Roy
+Last Name: Johnson
+Email: email@test.com
+Phone number:
+Select any option for services both drop down
+Selection any selection in session drop down.
+Message: This is a test.
+Click Submit
+User should be redirected to success.html which services as a confirmation page, giving the user acknowledgement that the details have been sent.
+
+Expected:
+
+Form submitted without any errors and the user is redirected to success.html.
+
+Actual:
+
+There were noo errors present and user is redirected to success.html
+
+
+**Scenario two - required field not entered**
+
+Steps to test:
+
+Navigate to Portfolio - Home Page
+Click on 'Book now' link in the navbar.
+User will be redirected to the booking inquiry page and then input the following:
+First Name: 
+Last Name: Johnson
+Email: email@test.com
+Phone number:
+Select any option for services both drop down
+Selection any selection in session drop down.
+Message: This is a test.
+Click Submit
+User should be prompted to enter a first name. 
+Next- repeat step for all required fields: First name, Last name, Email address, Phone number, selection on both drop down menus.
+
+Expected:
+
+User is prompted to enter the missing required field
+
+Actual:
+
+The user is prompted to enter the missing required field and this is the same for all required fields.
+
+**Scenario three - Email address incorrect format**
+
+Steps to test:
+
+Navigate to Portfolio - Home Page
+Click on 'Book now' link in the navbar.
+User will be redirected to the booking inquiry page and then input the following:
+First Name: 
+Last Name: Johnson
+Email: email.com
+Phone number:
+Select any option for services both drop down
+Selection any selection in session drop down.
+Message: This is a test.
+Click Submit
+
+Expected:
+
+User should be prompted to enter an email address with correct format. 
+
+Actual:
+
+The user is prompted to enter an email address with the correct format. Once that is done, form submits as expected.
 
