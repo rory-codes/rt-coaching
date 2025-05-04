@@ -433,6 +433,7 @@ h5 {
     margin: 20px;
 }
 }
+
 /*Extra Large devices (laptops, 1200px and up) */
 /*Media query to address the positioning of the booking button across different screen sizes (mobile first approach)*/
 @media screen and (min-width: 1200px)  {
