@@ -551,37 +551,39 @@ Links work as expected and user is directed to an app to carry out intended resu
 ### HTML validation - Pre fixes 
 
 #### Home
-
+![Home](docs/read-me-images/home-html-val1.png)
 
 #### Gallery
-
+![Home](docs/read-me-images/gallery-html-val1.png)
 
 #### Booking inquiry form
-
+![Home](docs/read-me-images/booking-html-val1.png)
 
 #### Success page
+![Home](docs/read-me-images/success-html-val1.png)
 
+
+Passed all checks and therefore, no fixes needed. 
 
 ### HTML validation - Post fixes
 
-
 #### Home
-
+![Home](docs/read-me-images/home-html-val2.png)
 
 #### Gallery
-
+![Home](docs/read-me-images/gallery-html-val2.png)
 
 #### Booking inquiry form
-
-
-#### Success page
+![Home](docs/read-me-images/booking-html-val2.png)
 
 
 ### CSS validation
 
 Pre fix CSS validation: The following errors were found.
+![Home](docs/read-me-images/css-val1.png)
 
 Post fix CSS validation: No errors were found.
+![Home](docs/read-me-images/css-val2.png)
 
 ### Unfixed Bugs
 Issue #1: Form to send email to target email address and direct to success.html for comfirmation after form is submitted.
@@ -603,10 +605,10 @@ The portfolio website deployed using GitHub Pages
 * Go to the Settings tab in the repository.
 * Scroll down to the Pages section.
 * Under Branch, select main
-* Click Save. Live link can be found [here] (https://rory-codes.github.io/rt-coaching/)
+* Click Save. Live link can be found ![here] (https://rory-codes.github.io/rt-coaching/)
 
 ## Credits
-* Bootstrap - This website's code was utilized to construct the navbar and cards' structural foundation according to my pertinent preferences and guarantee that the site's styling is consistent throughout. Additionally, bootstrap was helpful in giving Javascript code for a responsive and functional structure, such as the navbar that collapses when a mobile view button is clicked.
+* Bootstrap - This website's code was utilised to construct the navbar and cards' structural foundation according to my pertinent preferences and guarantee that the site's styling is consistent throughout. Additionally, bootstrap was helpful in giving Javascript code for a responsive and functional structure, such as the navbar that collapses when a mobile view button is clicked.
   
 * Javascript - Javascript should also be commended because it was utilized to adjust to Bootstrap 5.3
 
@@ -617,17 +619,34 @@ The portfolio website deployed using GitHub Pages
  Code institute also helped me learn about important principles such as: HTML, CSS and bootstrap. As well as many other areas such as; how to link to git hub and approach work in logical, well thought-out manor.
 
 *Wendy Purdy - Wendy has been really helpful with her commitment and help towards my development. We have weekly meetings and/or 1-1's and she has been a great line of support. Please see below for an example of how she helped me repair my form (which wasn't submitted as intended)
- 
+ ![Home](docs/read-me-images/wendy.png)
 * W3schools - Used to refer back to previously learned principles, such as pseudo-classes and form elements. This was really helpful when building the site.
-
+![Home](docs/read-me-images/w3.png)
 * Slack - To discuss code, resolve hosting and connectivity problems, and get input on written code, Slack was utilized.
 
 * Stackoverflow - This was used various times throughout the process to quickly look up something and make mental connections. Please see below for example:
-
+![Home](docs/read-me-images/stackoverflow.png)
 * Google - Google maps are utilized to embed a location and an interactive element in the footer, and Google fonts are used for styling across the website: https://fonts.google.com/.
  The 'preload' and 'preconnect' scripts used on this website were read, found, and learned by Chrome developers: https://developer.chrome.com/docs/devtools/application/debugging-speculation-rules
  Chrome DevTools is a lighthouse tool for testing and examining the accessibility and performance of code.
 
+* Favicon.io - This was used to create favicons.
+
+* Google fonts - Used to import fonts.
+
+* Canva.com - Used to create Logo for RT Coaching.
+
+* Font awesome - Used to import icons.
+
+* Balsamic - Used to create wireframes.
+
+* colormind.io - Used to create palette for RT coaching and subsequently used throughout site.
+![Home](docs/read-me-images/palette.png)
+
 ## Media 
 * Pexels - Stock images for the gallery.
+
 * Pixaby - Stock images for the gallery.
+
+
+Thank you! This is my first project via the code institute - Full stack web development (level 5) diploma. I have learnt a lot through this journey and I am proud of the site I have deployed, despite obvious limitations. I am excited to continue this journey and learn about different technologies and languages to guide my coding journey.
