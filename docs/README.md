@@ -239,7 +239,7 @@ As a child interested in coaching, I want to see reviews or testimonials from ot
 
 (With 2 sections, a header, a footer and naviagation)
 
-![Home](docs/wireframes/mobile-home.bmpr) 
+![Home](wireframes/mobile-home.bmpr) 
 
 ![Home](docs/wireframes/tablet-home.bmpr)
 
