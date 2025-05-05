@@ -167,6 +167,7 @@ header {
     background-color: rgba(39, 85, 145, 0.32); /*Added to give background colour heading to make it stand out more, colour from the colour scheme used but rgba selected to change opacity*/
     border-radius: 4px;
     border: 2px solid var(--secondary-color);
+    padding-left: 6px;
 }
 
 .list-group-item {
