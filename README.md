@@ -167,31 +167,31 @@ As a child interested in coaching, I want to see reviews or testimonials from ot
 ## UX & UI Considerations
 
 ### User Experience (UX)
-***Intuitive Navigation:** The site follows a clear menu structure for easy access to sports, services, gallery and booking inquiry form. 
+* **Intuitive Navigation:** The site follows a clear menu structure for easy access to sports, services, gallery and booking inquiry form. 
 
 ***Responsive Design:** The site has been optimised for mobile and desktop usage, allowing athletes and parents to access content on the go. This has been achieved using a 'mobile first approach' to ensure the content works on mobiles before addressing larger screen sizes.
 
-***Clear Call-to-Actions:** The website contains various booking buttons so that users can easily access the form. 
+* **Clear Call-to-Actions:** The website contains various booking buttons so that users can easily access the form. 
 
-***Fast Load Times:** Images and resources have been optimised to ensure smooth browsing on all devices, including mobile.
+* **Fast Load Times:** Images and resources have been optimised to ensure smooth browsing on all devices, including mobile.
 
-***Accessibility:** The website follows WCAG 2.1 guidelines to ensure all users can access content easily and without obstacle.
+* **Accessibility:** The website follows WCAG 2.1 guidelines to ensure all users can access content easily and without obstacle.
 
 **Further considerations**
-1. Strategy – Set user needs and goals to ensure the site serves RT coaching and its customers/clients.
-2. Scope – Contain features such as the sports, services, booking and gallery sections.
-3. Structure – Design a logical easy-to-use structure that produces easy navigation and ease of access for its users.
-4. Skeleton – Create wireframes to map out the layout the site and give RT Coaching an idea of what to expect when complete.
-5. Surface – Develop cohesive bespoke website with responsive deisgn and RT coaching colours and branding.
+1. **Strategy:** Set user needs and goals to ensure the site serves RT coaching and its customers/clients.
+2. **Scope:** Contain features such as the sports, services, booking and gallery sections.
+3. **Structure:** Design a logical easy-to-use structure that produces easy navigation and ease of access for its users.
+4. **Skeleton:** Create wireframes to map out the layout the site and give RT Coaching an idea of what to expect when complete.
+5. **Surface:** Develop cohesive bespoke website with responsive deisgn and RT coaching colours and branding.
    
 ### User Interface (UI)
-***Branding:** A consistent color palette and typography has been used throughout the site. It is the same font and colour palette used in the logo for RT coaching representing alignment with RT Coaching’s identity and brand.
+* **Branding:** A consistent color palette and typography has been used throughout the site. It is the same font and colour palette used in the logo for RT coaching representing alignment with RT Coaching’s identity and brand.
 
-***Engaging Visuals:** There is sufficient use of photos to build credibility and user interest.
+* **Engaging Visuals:** There is sufficient use of photos to build credibility and user interest.
 
-***Readable Layout:** The website has been produved to have a clean design with easily readable sections to minimise information overload.
+* **Readable Layout:** The website has been produved to have a clean design with easily readable sections to minimise information overload.
 
-***Minimalist Design:** There is a clear focus on important information (header, sports, services, footer, gallery, booking and success) with minimal distractions. The gallery includes images and the form includes a logo and form entries.
+* **Minimalist Design:** There is a clear focus on important information (header, sports, services, footer, gallery, booking and success) with minimal distractions. The gallery includes images and the form includes a logo and form entries.
 
 ## Technologies Used
 
@@ -248,7 +248,7 @@ As a child interested in coaching, I want to see reviews or testimonials from ot
 
 (With 2 sections, a header, a footer and naviagation)
 
-![Home](wireframes/mobile-home.png) 
+![Home](docs/wireframes/mobile-home.png) 
 
 ![Home](docs/wireframes/tablet-home.png)
 
