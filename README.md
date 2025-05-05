@@ -66,10 +66,9 @@ Testimonials and achievements from athletes who have trained under RT Coaching.
 
 ### Landing Page 
 
-**Home page**
-* Following guidance from M(ii) Implement a websitewhose purpose is immediately evident to a new user without having to look at supporting documentation. 
+**Home page** 
 * The homepage uses bootstraps grid system to align content. This includes a combination of divs with the following classes: container, row and collumns (col-12, col-md-6, col-lg-12 etc) to achieve the desired effect across different screen sizes.
-* To Address this point, I have ensured that the website follows a logical flow of information. Images are used for a specficic purpose such as the 'hero' image in the header used to create an instant impact to let users know the nature of RT coaching. This is also linked with branding and a call to action button.
+* I have ensured that the website follows a logical flow of information. Images are used for a specficic purpose such as the 'hero' image in the header used to create an instant impact to let users know the nature of RT coaching. This is also linked with branding and a 'call to action' button.
 * There are two sections below the header, each with a clear purpose. They are as follows:
 
 **Header section**
@@ -208,9 +207,11 @@ As a child interested in coaching, I want to see reviews or testimonials from ot
 
 **Host**
 * GitHub: Source of the code is hosted on GitHub and deployed using Git Pages.
+  
 **External Design**
 * Font Awesome: Icons obtained from https://fontawesome.com/ used in social media section.
-* Favicon.io: Favicon files were customised created at https://favicon.io/favicon-converter/ 
+* Favicon.io: Favicon files were customised created at https://favicon.io/favicon-converter/
+  
 **Images**
 * Squoosh: https://squoosh.com/ was used to reduce the size of the images used throughout the website.
 * Balsamiq: Website wireframes were created using balsamiq https://balsamiq.com/wireframes/desktop
@@ -220,7 +221,6 @@ As a child interested in coaching, I want to see reviews or testimonials from ot
 ***Deployment:** Hosted via GitHub Pages (https://github.com/rory-codes/rt-coaching).
 
 ### Existing Features
-
 * Responsive design and content.
 * Hidden internal page (success.html).
 * External frameworks used.
@@ -235,7 +235,8 @@ As a child interested in coaching, I want to see reviews or testimonials from ot
 
 ### Features Left to Implement
 * User story: As a child interested in coaching, I want to see reviews or testimonials from other students so that I can get a feel for whether they are happy with the coaching received.
-*Introduce an audio file to allow users to have an interactive experience when using the site. Ensure that file does not auto play and is muted when played.
+  
+* Introduce an audio file to allow users to have an interactive experience when using the site. Ensure that file does not auto play and is muted when played.
 
 ## Design
 
@@ -281,7 +282,6 @@ As a child interested in coaching, I want to see reviews or testimonials from ot
 <br>
 
 ## Testing
-
 The delivered website was developed and tested using Chrome DevTools to look for accessibility problems.
 
 The following criteria were the main focus of the testing:
@@ -292,25 +292,21 @@ The following criteria were the main focus of the testing:
 * Ensure website is responsive and performs well across various screen sizes with no obvious errors.
 
 ### Reactivity
-
 Every page was examined to make sure it would work on Chrome, Edge, and Firefox screens that were 320 pixels or larger.
 
 
 **Testing protocol:**
-
 1. Go to [Portfolio](https://rory-codes.github.io/rt-coaching/index.html) in an open browser.
 2. Right-click and select "Inspect" to open the developer tools.
 3. Reduce to 320px and set to responsive.
 5. To adjust the responsive window's minimum and maximum width, click and drag it back and forth.
 
 **Anticipated:**
-
 No graphics are stretched, and the website works well on all screen widths.
 There isn't a horizontal scroll.
 Nothing overlaps.
 
 **Actual:**
-
 The website behaved as expected apart from the following issues:
 •	The footer did not stretch content across the full width and became unaligned on devices 465px and under.
 •	The cards in the sports section on screens above 1400px become unaligned due to the images increasing in size.
@@ -319,7 +315,10 @@ The website behaved as expected apart from the following issues:
 
 This was tested manually on the following devices:
 * Iphone 12
+* Iphone XR
+* Samsung galaxy S24.
 * LG Thinkpad laptop.
+* Ipad pro.
 * Devtools various phones: Iphone SE, Iphone XR, Iphone 12 pro, Iphone 14 pro max, pixel 7, Samsung galaxy s8+, Samsung galaxy S20 ultra.
 
 ### Performance, Accessibility & best practices Issues & Fixes
@@ -409,27 +408,24 @@ No screenshots taken before images were changed from png to webp and therefore, 
 ### Functionality testing
 
  **Navigation**
-
  To ensure that all navigation links lead to the appropriate pages and sections, testing was done.  To accomplish this, each page's navigation links were clicked.
 
- | Page to Load | 
- | --------------- | ---------------| 
- | Home  | index.html | 
- | Sports | index.html#sports |
- | Services | index.html#services |
- | Gallery | gallery.html |
- | Booking | booking.html | 
- | Success | success.html | |
+| Page to Load | Link |
+| ------------ | ---- |
+| Home         | index.html |
+| Sports       | index.html#sports |
+| Services     | index.html#services |
+| Gallery      | gallery.html |
+| Booking      | booking.html |
+| Success      | success.html |
 
 
  All of the page links led to the appropriate sections and pages as planned.
 
  **Form Testing**
-
 The form on the home page was tested to ensure it functioned as intended when the correct data type was input and required fields were entered/selected.
 
 **Scenario One - Correct Inputs**
-
 Steps to test:
 
 Navigate to Portfolio - Home Page
@@ -455,7 +451,6 @@ There were noo errors present and user is redirected to success.html
 
 
 **Scenario two - required field not entered**
-
 Steps to test:
 
 Navigate to Portfolio - Home Page
@@ -481,7 +476,6 @@ Actual:
 The user is prompted to enter the missing required field and this is the same for all required fields.
 
 **Scenario three - Email address incorrect format**
-
 Steps to test:
 
 Navigate to Portfolio - Home Page
@@ -505,7 +499,6 @@ Actual:
 The user is prompted to enter an email address with the correct format. Once that is done, form submits as expected.
 
 **Icons (link) for Social Media in the Footer**
-
 Expected:
  Social media icon testing was done to ensure that links open in a new tab, and direct to correct website, and have a hover effect to let users know they are links.
  
@@ -514,11 +507,9 @@ Expected:
 
 
 **Contact Details in the Footer**
-
  To ensure that users could contact the site directly, testing was done on the contact section.  Email to launch an email application on any device, and phone number to initiate a call action from mobile devices.
 
 **Phone number:**
-
  * Go to the Home Page of the Portfolio.
  * Scroll to the number in the footer and click the number listed (07854965865).
  * Repeat testing for all pages.
@@ -585,7 +576,6 @@ Passed all checks and therefore, no fixes needed.
 
 
 ### CSS validation
-
 Pre fix CSS validation: The following errors were found.
 ![Home](docs/readme_images/css-val1.png)
 
@@ -657,7 +647,7 @@ The portfolio website deployed using GitHub Pages
 ## Media 
 * Pexels - Stock images for the gallery.
 
-* Pixaby - Stock images for the gallery.
+* Pixaby - Stock images for the gallery and audio file in header.
 
 
 Thank you! This is my first project via the code institute - Full stack web development (level 5) diploma. I have learnt a lot through this journey and I am proud of the site I have deployed, despite obvious limitations. I am excited to continue this journey and learn about different technologies and languages to guide my coding journey.
