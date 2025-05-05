@@ -332,7 +332,7 @@ Manual tests were performed to identify problematic issues, they are as follows:
 - **Problem**: Scrolling down from the navbar on tablets and mobiles, created a bad user experience.
 - **Fix**: The following CSS was applied 'position: fixed' to ensure that the navbar stays at the top of the viewport and is much more easily accessed.
 
-#### Problem #3: Large Images with png file type Affecting Loading Time: 
+#### Issue #3: Large Images with png file type Affecting Loading Time: 
 -**Problem**: Image files containing too much data were taking longer to load the webpage and driving down performance.
 -**Fix**: I used squoosh to compress all image files from "png" to "webp.". Dramatically imrpoving performance from 67-82.
 
