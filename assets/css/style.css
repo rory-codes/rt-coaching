@@ -274,10 +274,12 @@ h5 {
     border-radius: 4px;
     border: 2px solid var(--primary-color); /*Added to give background colour to heading and make it stand out. Colour from the colour scheme used but rgba selected to change opacity*/
     margin-top: 30px;
+    padding: 4px;
+    color: var(--lowlight-color);
 }
 
 
-#gallery h3, p {
+#gallery p {
     color: var(--secondary-color);
 }
 
@@ -290,7 +292,7 @@ h5 {
     border-radius: 4px;
     border: 2px solid var(--primary-color);
     padding-bottom: 3rem;  /*Added to give space at the bottom of form and seperate from footer*/
-    margin-bottom: 4rem;/*Added to give space at the bottom of form and seperate from footer*/
+    margin-bottom: 2rem;/*Added to give space at the bottom of form and seperate from footer*/
 }
 #booking h1{
     border-radius: 4px;
