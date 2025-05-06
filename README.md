@@ -2,7 +2,7 @@
 
 # RT Coaching
 A website that promotes RT coaching's sports coaching business. The site designed to showcase services and sports provided. The website provides a logical flow of information, making it easy for users to navigate through the site. There are 'call to action' buttons within each section and navigation to lead users to a booking inquiry form.
-RT Coaching is dedicated to helping students achieve their full potential through utilisation of a 'pedagogy first approach'. This website serves as a digital platform to promote coaching services and create an easy point of contact for clients. To view the live site site, click![here](https://rory-codes.github.io/rt-coaching/)
+RT Coaching is dedicated to helping students achieve their full potential through utilisation of a 'pedagogy first approach'. This website serves as a digital platform to promote coaching services and create an easy point of contact for clients. To view the live site, [click here](https://rory-codes.github.io/rt-coaching/)
 
 ## Table of Content
 
