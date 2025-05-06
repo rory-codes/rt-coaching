@@ -118,7 +118,7 @@ header {
     background-color: rgba(158, 191, 209, 0.74); /*Change to rgba to target opacity of background color*/
 }
 
-.audio-caption {
+.audio-caption a {
     color: var(--lowlight-color);
     background-color: var(--highlight-color-light);  /*Added to improve accessibility*/
 }
