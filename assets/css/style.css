@@ -366,10 +366,11 @@ h5 {
     color: var(--lowlight-color);
     border-radius: 4px;
     border: 2px solid var(--primary-color);
-    background-color: rgba(158, 191, 209, 0.58)
+    background-color: rgba(158, 191, 209, 0.58);
+    margin-top: 50px;
 }
 
-#success p {
+#error p {
     color: var(--lowlight-color);
 }
 /*
