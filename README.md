@@ -64,7 +64,7 @@ Build an online presence to attract new clients, highlight coaching activities a
 ### User requirements and expectations
 * **Intuitive Navigation:** The site follows a clear menu structure for easy access to sports, services, gallery and booking inquiry form. 
 
-***Responsive Design:** The site has been optimised for mobile and desktop usage, allowing athletes and parents to access content on the go. This has been achieved using a 'mobile first approach' to ensure the content works on mobiles before addressing larger screen sizes.
+* **Responsive Design:** The site has been optimised for mobile and desktop usage, allowing athletes and parents to access content on the go. This has been achieved using a 'mobile first approach' to ensure the content works on mobiles before addressing larger screen sizes.
 
 * **Clear Call-to-Actions:** The website contains various booking buttons so that users can easily access the form. 
 
