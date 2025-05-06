@@ -32,7 +32,6 @@ RT Coaching is dedicated to helping students achieve their full potential throug
     4. [Performance](#performance)
     5. [Reactivity](#reactivity)
     6. [Functionality testing](#functionality)
-    7. [Testing user stories](#testing-user-stories)
 8. [Bugs](#Bugs)
 9. [Deployment](#deployment)
 10. [Credits](#credits)
@@ -56,9 +55,9 @@ Build an online presence to attract new clients, highlight coaching activities a
 ## User Experience (UX)
 
 ### User profiles:
-*Children wanting to participate in the sports clubs. 
-*Parents of children wanting to participate in the sports clubs or 1-1's. 
-*Organisations such as schools and/or sports teams interested in coaching services provided and previous experience.
+* Children wanting to participate in the sports clubs. 
+* Parents of children wanting to participate in the sports clubs or 1-1's. 
+* Organisations such as schools and/or sports teams interested in coaching services provided and previous experience.
 
 ### User requirements and expectations
 * **Intuitive Navigation:** The site follows a clear menu structure for easy access to sports, services, gallery and booking inquiry form. 
