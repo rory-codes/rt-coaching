@@ -560,7 +560,7 @@ Added <a> link with href="mailto:..." to create link that users can use to send 
 Actual after fix:
 Links work as expected and user is directed to an app to carry out intended result (send an email).
 
-##Bugs
+## Bugs
 Several issues/bugs were present during the web development process. Below is a list of issues which are broken down into problem and fix, highlighting how code was changed to resolve issues.
 
 ### Issue #1: Form submission
