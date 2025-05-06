@@ -13,31 +13,30 @@ RT Coaching is dedicated to helping students achieve their full potential throug
     1. [User profiles](#user-profiles)
     2. [User Requrements and Expectations](#user-requrements-and-expectations)
     3. [User Stories](#user-stories)
-3. [User interface](#user-interface)
-4. [Design](#design)
+3. [Design](#design)
     1. [Design Choices](#design-choices)
     2. [Colour](#colours)
     3. [Fonts](#fonts)
     4. [Structure](#structure)
     5. [Wireframes](#wireframes)
-5. [Technologies Used](#technologies-used)
+4. [Technologies Used](#technologies-used)
     1. [Languages](#languages)
     2. [Frameworks & Tools](#frameworks-&-tools)
-6. [Features](#features)
+5. [Features](#features)
     1.[Overview](#overview)
     2.[Detailed overview](#detailed-overview)
     3.[Features left to implement](#left-to-implement)
-7. [Testing](#validation)
+6. [Testing](#validation)
     1. [HTML Validation](#HTML-validation)
     2. [CSS Validation](#CSS-validation)
     3. [Accessibility](#accessibility)
     4. [Performance](#performance)
     5. [Reactivity](#reactivity)
     6. [Functionality testing](#functionality)
-8. [Bugs](#Bugs)
-9. [Deployment](#deployment)
-10. [Credits](#credits)
-11. [Acknowledgements](#acknowledgements)
+7. [Bugs](#Bugs)
+8. [Deployment](#deployment)
+9. [Credits](#credits)
+10. [Acknowledgements](#acknowledgements)
 <br>
 
 ## Project goals
@@ -112,9 +111,10 @@ As a parent of a child on low income, want to see pricing of sessions that I can
 #### User story:
 As a child interested in coaching, I want to see reviews or testimonials from other students so that I can get a feel for whether they are happy with the coaching received.
 
-   
-## User Interface (UI)
 
+## Design
+
+### Design choices
 * **Branding:** A consistent color palette and typography has been used throughout the site. It is the same font and colour palette used in the logo for RT coaching representing alignment with RT Coaching’s identity and brand.
 
 * **Engaging Visuals:** There is sufficient use of photos to build credibility and user interest.
@@ -122,11 +122,6 @@ As a child interested in coaching, I want to see reviews or testimonials from ot
 * **Readable Layout:** The website has been produced to have a clean design with easily readable sections to minimise information overload.
 
 * **Minimalist Design:** There is a clear focus on important information (header, sports, services, footer, gallery, booking and success) with minimal distractions. The gallery includes images and the form includes a logo and form entries.
-
-## Design
-
-### Design choices
-The website was designed with sports coaching and the type of user at the forefront of design. It was important that all imagery and branding worked in line with RT coaching and created a feeling of professionalism and confidence for users.
 
 ### Colour
 The colour scheme was selected in coordination with the RT Coaching brand logo. The colouring creates a bespoke feel to the website and creates a warm, professional appearance for users. 
