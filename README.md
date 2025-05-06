@@ -204,7 +204,8 @@ The website consists of four separate pages:
 ***Booking Integration:** Booking inquiry form to allow users to message RT coaching..
 ***Deployment:** Hosted via GitHub Pages (https://github.com/rory-codes/rt-coaching).
 
-##Features
+## Features
+
 ### Overview
 * Responsive design and content.
 * Hidden internal page (success.html).
