@@ -93,7 +93,7 @@ As 12-year-old who wants to start playing football, I want information about coa
 As the sports coordinator for a local school, I want to view a description and visual representation of the activities covered, so that I can decide whether the school is interested in using rt-coaching as an external provider of sports clubs.
 
 ##### User story 4:
-As 12-year-old who wants to start playing football, I want information about coaching sessions so that I can see whether sessions are available for my age and experience level.
+As a 10-year-old girl interested in sports clubs, I want to see media such pictures of previous sessions to see whether the coaching on offer looks appealing.
 
 ##### User story 5:
 As the parent of a child who is interested in joining upcoming sessions, I want to book a place for my son so that he can start playing sport after school.
