@@ -6,7 +6,7 @@
 :root {
     --primary-font: 'kanit';
     --secondary-font: "Source sans 3";
-    --primary-color: #275591;             /*Usage- Heading backgrounds, borders*/
+    --primary-color: #538bd4;             /*Usage- Heading backgrounds, borders*/
     --secondary-color: #BFC1C5;           /*Usage- Button borders, text*/
     --highlight-color: #96B0C9;           /*Usage- Button backgrounds, titles*/
     --highlight-color-light: #9EBFD1;     /*Usage- Navbar, background highlights*/
@@ -38,7 +38,7 @@ h2 {
     padding-bottom: 0.43rem;
 }
 .heading {
-    color: var(--highlight-color-light);
+    color: var(--lowlight-color);
 }
 
 .padding-3 {
@@ -113,11 +113,18 @@ header {
 }
 
 /*Change text color and background color to help heading standout*/
-#header h1 {
-    color: var(--primary-color);
-    background-color: rgba(158, 191, 209, 0.74); /*Change to rgba to target opacity of background color*/
+#header h1,
+h2 {
+    color: var(--lowlight-color);
+    background-color: rgba(158, 191, 209, 0.741); /*Change to rgba to target opacity of background color*/
+    padding: 0.5rem;
 }
 
+#header p {
+    color: var(--lowlight-color);
+    background-color: rgba(158, 191, 209, 0.741);
+    padding: 0.5rem;
+}
 .audio-caption a {
     color: var(--lowlight-color);
     background-color: var(--highlight-color-light);  /*Added to improve accessibility*/
@@ -224,7 +231,7 @@ h5 {
 
 /*Footer*/
 #footer {
-    background-color:  rgba(158, 191, 209, 0.78);
+    background-color:  #c1ced5c7;
     color: var(--lowlight-color);
     width: 100vw;
 }
@@ -234,13 +241,16 @@ h5 {
 }
 
 #footer h2 {
-    color: var(--primary-color);
+    color: var(--lowlight-color);
     background-color: rgba(158, 191, 209, 0.78); /*Added to give background colour to heading and make it stand out. Colour from the colour scheme used but rgba selected to change opacity*/
     border-radius: 4px;
-    border: 2px solid var(--secondary-color);
+    border: 2px solid var(--lowlight-color);
     margin-top: 10px;  /*Added to give space to footer heading*/
 }
 
+#footer a {
+    color: var(--lowlight-color);
+}
 
 /*Change the colour of social links to match colour scheme*/
 .socials {
@@ -340,8 +350,8 @@ h5 {
     margin-right: 40px;
     border: 2px solid var(--secondary-color);
 }
+
 #success h1, 
-h2, 
 h3, 
 h4, 
 h5 {
