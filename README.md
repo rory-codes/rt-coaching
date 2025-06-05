@@ -210,7 +210,6 @@ The website consists of four separate pages:
 * Imported google fonts, favicon, RT Coaching logo, font-awesome logo, and map.
 * Bootstrap used to add features such as accordion or cards and then customised using CSS or bootstrap classes.
 * Booking inquiry form.
-* Responsive gallery images that increase in size when mouse hovers over them.
 * Hero image and brand logo creating a brand image.
 * Easy to navigate site design, making it user friendly and accessible.
 
@@ -278,8 +277,6 @@ The website consists of four separate pages:
 * The gallery includes 12 images acquired from various sites including but not limited to pexels. All images are stock images and do not conflict with copyright legislation. This adds value to the website and RT coaching by showcasing images to entice users to book a session and it adds values to users by allowing them to see images that align with the business and types of activities.
 * The images are styled using CSS to provide a border, margin, padding, border radius to align with styling in other areas of the site. All colours used are brand colours, providing further aligning with the brand identity.
 * Media queries used to adjust the alignment across different devices and screen sizes.
- (Screenshot of gallery)
- (Link to gallery)
 
 **Booking enquiry form**
 ![Home](docs/readme_images/booking1.png)
@@ -299,8 +296,6 @@ The website consists of four separate pages:
 
 ### Features Left to Implement
 * User story: As a child interested in coaching, I want to see reviews or testimonials from other students so that I can get a feel for whether they are happy with the coaching received.
-  
-* Introduce an audio file to allow users to have an interactive experience when using the site. Ensure that file does not auto play and is muted when played.
 
 ## Testing
 
