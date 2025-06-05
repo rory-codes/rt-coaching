@@ -21,6 +21,10 @@ body {
     margin-top: 2rem; /*Changed margin to margin top to solve issue with footer*/
 }
 
+h1 {
+    font-size: 2rem;
+}
+
 h1,
 h2,
 h3,
